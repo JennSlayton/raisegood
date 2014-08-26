@@ -1,0 +1,50 @@
+//RAISE GOOD - HOMEPAGE STYLES
+body {
+  font-family:$main-typeface;
+}
+
+.main-header-image{
+  background: #FFFFFF  url('../images/raisegoodcover.png') no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  padding-bottom: 50px;
+}
+
+.raise-good-homepage {
+  .main-nav-header {
+    li{
+      display: inline;
+      a{
+        color: $base-red;
+        text-decoration: none;
+      }
+    }
+  }
+  .main-header-image {
+    background:url(../images/raisegoodcover.png) no-repeat top center;
+    background-size:cover;
+    width:100%;
+    min-height:500px;
+  }
+}
+
+.how-it-works {
+  .container {
+    background-color: $base-blue;
+  }
+}
+
+.quote-red-bg {
+  .container {
+    background-color: $base-red; 
+  }
+}
+
+.footer {
+  .container{
+    background-color: $light-gray;
+  }
+}
+
