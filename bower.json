@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "JennSlayton.github.io/raisegood",
   "authors": [
-    "jennslayton <jennslayton@gmail.com>"
+    "jennslayton <advoslayton@gmail.com>"
   ],
   "description": "foundation application",
   "main": "index.html",
@@ -20,6 +20,5 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
   }
 }
