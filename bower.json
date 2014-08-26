@@ -1,0 +1,25 @@
+{
+  "name": "raisegood",
+  "version": "0.0.1",
+  "homepage": "JennSlayton.github.io/raisegood",
+  "authors": [
+    "jennslayton <jennslayton@gmail.com>"
+  ],
+  "description": "foundation application",
+  "main": "index.html",
+  "keywords": [
+    "foundation",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}
