@@ -1,0 +1,62 @@
+//GLOBAL BUTTON STYLES
+
+	.button{
+		border: none;
+		border-radius: 3px;
+		color: $base-white;
+		display: inline-block;
+		font-family: $main-typeface;
+		font-size: 15px;
+		padding: 10px 20px;
+
+		&:hover{
+			border: none;
+			cursor: pointer;
+			opacity: 0.8;
+		}
+
+		&:focus{
+			border:none;
+			outline:none;
+			text-decoration:none;
+		}
+	}
+
+
+//BASE BUTTON
+
+	$buttons: (
+						 blue $base-blue $base-white,
+						 red $base-red $base-white
+						);
+
+	@each $button in $buttons{
+		$name: nth($button, 1);
+		$background: nth($button, 2); 
+		$color: nth($button, 3); 
+
+		.button-#{$name}{
+			background-color: $background;
+			color: $color;
+
+			&:hover{
+				background-color: shade($background, 10%);
+				color: $color;
+			}
+		}
+	}
+
+
+	//BUTTON STYLES
+
+	.button-small{ padding:8px 10px !important; }
+	.button-nav{ padding:12px 18px !important; }
+	.button-large{ font-size: 18px; padding:15px 40px !important; }
+	.button-long{ width:100%; }
+
+
+	//BUTTON POSITION
+
+	.button-center{ text-align:center; }
+	.button-left{ text-align:left; }
+	.button-right{ text-align:right; }  
