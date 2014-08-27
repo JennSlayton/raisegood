@@ -1,50 +1,126 @@
 //RAISE GOOD - HOMEPAGE STYLES
 body {
-  font-family:$main-typeface;
-}
-
-.main-header-image{
-  background: #FFFFFF  url('../images/raisegoodcover.png') no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  height: 500px;
-  padding-bottom: 50px;
+  font-family: $main-typeface;
 }
 
 .raise-good-homepage {
   .main-nav-header {
-    li{
-      display: inline;
-      a{
+    .left-nav {
+      float: left;
+        li{
+        display: inline;
+        a{
         color: $base-red;
+        text-decoration: none; 
+        } 
+        }
+      
+    }
+    .right-nav {
+      float: right; 
+      li {
+        display: inline;
+      a {
         text-decoration: none;
+      }
+      }
+      .right-link {
+        color: $base-red
       }
     }
   }
+
   .main-header-image {
     background:url(../images/raisegoodcover.png) no-repeat top center;
     background-size:cover;
     width:100%;
     min-height:500px;
+      .main-header {
+        padding-top: 160px; 
+        text-align: center;
+        h1 {
+          color: #FFFFFF;
+        }
+        a {
+          text-decoration: none;
+          color: #FFFFFF;
+        }
+      }
   }
-}
 
-.how-it-works {
-  .container {
+  .features {
+    text-align: center;
+    h3 {
+      color: $base-blue;
+      padding-top: 50px;
+    }
+  
+    .nav-link {
+      font-size: 18px;
+      text-decoration: none;
+    }
+  }
+
+  .searchline {
+    text-align: center;
+    h4 {
+      color: $base-blue;
+      padding-top: 50px;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .how-it-works {
     background-color: $base-blue;
+    text-align: center;
+    
+    h3, h4, p {
+      color: #FFFFFF;
+    }
   }
-}
 
-.quote-red-bg {
-  .container {
-    background-color: $base-red; 
+  .quote-red-bg {
+      background-color: $base-red;
   }
-}
 
-.footer {
-  .container{
-    background-color: $light-gray;
+
+  .final-cta {
+    text-align: center;
+    h2 {
+    color: $base-blue;
+    }
+    a {
+      text-decoration: none;
+    }
   }
+
+  .footer {
+    background-color: $base-gray;
+      .container {
+        text-align: center;
+        h3 {
+          color: $base-blue;
+          text-align: center;
+        }
+        li {
+          display: inline;
+        }
+        a {
+          text-decoration: none;
+        }     
+      }
+      img {
+        max-width: 100%;
+      }
+      .nav-footer {
+        color: $base-blue;
+        text-align: center;
+
+      }
+
+  }
+
 }
 

@@ -2,8 +2,8 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500);
-/* line 5, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,600);
+/* line 5, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -1184,44 +1184,135 @@ body {
   font-family: "Raleway";
 }
 
-/* line 6, ../sass/_homepage.scss */
-.main-header-image {
-  background: #FFFFFF url("../images/raisegoodcover.png") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  height: 500px;
-  padding-bottom: 50px;
+/* line 8, ../sass/_homepage.scss */
+.raise-good-homepage .main-nav-header .left-nav {
+  float: left;
 }
-
-/* line 17, ../sass/_homepage.scss */
-.raise-good-homepage .main-nav-header li {
+/* line 10, ../sass/_homepage.scss */
+.raise-good-homepage .main-nav-header .left-nav li {
   display: inline;
 }
-/* line 19, ../sass/_homepage.scss */
-.raise-good-homepage .main-nav-header li a {
+/* line 12, ../sass/_homepage.scss */
+.raise-good-homepage .main-nav-header .left-nav li a {
   color: #CC0A32;
   text-decoration: none;
 }
-/* line 25, ../sass/_homepage.scss */
+/* line 19, ../sass/_homepage.scss */
+.raise-good-homepage .main-nav-header .right-nav {
+  float: right;
+}
+/* line 21, ../sass/_homepage.scss */
+.raise-good-homepage .main-nav-header .right-nav li {
+  display: inline;
+}
+/* line 23, ../sass/_homepage.scss */
+.raise-good-homepage .main-nav-header .right-nav li a {
+  text-decoration: none;
+}
+/* line 27, ../sass/_homepage.scss */
+.raise-good-homepage .main-nav-header .right-nav .right-link {
+  color: #CC0A32;
+}
+/* line 33, ../sass/_homepage.scss */
 .raise-good-homepage .main-header-image {
   background: url(../images/raisegoodcover.png) no-repeat top center;
   background-size: cover;
   width: 100%;
   min-height: 500px;
 }
-
-/* line 34, ../sass/_homepage.scss */
-.how-it-works .container {
-  background-color: #548699;
+/* line 38, ../sass/_homepage.scss */
+.raise-good-homepage .main-header-image .main-header {
+  padding-top: 160px;
+  text-align: center;
 }
-
-/* line 40, ../sass/_homepage.scss */
-.quote-red-bg .container {
+/* line 41, ../sass/_homepage.scss */
+.raise-good-homepage .main-header-image .main-header h1 {
+  color: #FFFFFF;
+}
+/* line 44, ../sass/_homepage.scss */
+.raise-good-homepage .main-header-image .main-header a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/* line 51, ../sass/_homepage.scss */
+.raise-good-homepage .features {
+  text-align: center;
+}
+/* line 53, ../sass/_homepage.scss */
+.raise-good-homepage .features h3 {
+  color: #548699;
+  padding-top: 50px;
+}
+/* line 58, ../sass/_homepage.scss */
+.raise-good-homepage .features .nav-link {
+  font-size: 18px;
+  text-decoration: none;
+}
+/* line 64, ../sass/_homepage.scss */
+.raise-good-homepage .searchline {
+  text-align: center;
+}
+/* line 66, ../sass/_homepage.scss */
+.raise-good-homepage .searchline h4 {
+  color: #548699;
+  padding-top: 50px;
+}
+/* line 70, ../sass/_homepage.scss */
+.raise-good-homepage .searchline a {
+  text-decoration: none;
+}
+/* line 75, ../sass/_homepage.scss */
+.raise-good-homepage .how-it-works {
+  background-color: #548699;
+  text-align: center;
+}
+/* line 79, ../sass/_homepage.scss */
+.raise-good-homepage .how-it-works h3, .raise-good-homepage .how-it-works h4, .raise-good-homepage .how-it-works p {
+  color: #FFFFFF;
+}
+/* line 84, ../sass/_homepage.scss */
+.raise-good-homepage .quote-red-bg {
   background-color: #CC0A32;
 }
-
-/* line 46, ../sass/_homepage.scss */
-.footer .container {
-  background-color: #FAFAFA;
+/* line 89, ../sass/_homepage.scss */
+.raise-good-homepage .final-cta {
+  text-align: center;
+}
+/* line 91, ../sass/_homepage.scss */
+.raise-good-homepage .final-cta h2 {
+  color: #548699;
+}
+/* line 94, ../sass/_homepage.scss */
+.raise-good-homepage .final-cta a {
+  text-decoration: none;
+}
+/* line 99, ../sass/_homepage.scss */
+.raise-good-homepage .footer {
+  background-color: #d7d7d7;
+}
+/* line 101, ../sass/_homepage.scss */
+.raise-good-homepage .footer .container {
+  text-align: center;
+}
+/* line 103, ../sass/_homepage.scss */
+.raise-good-homepage .footer .container h3 {
+  color: #548699;
+  text-align: center;
+}
+/* line 107, ../sass/_homepage.scss */
+.raise-good-homepage .footer .container li {
+  display: inline;
+}
+/* line 110, ../sass/_homepage.scss */
+.raise-good-homepage .footer .container a {
+  text-decoration: none;
+}
+/* line 114, ../sass/_homepage.scss */
+.raise-good-homepage .footer img {
+  max-width: 100%;
+}
+/* line 117, ../sass/_homepage.scss */
+.raise-good-homepage .footer .nav-footer {
+  color: #548699;
+  text-align: center;
 }
