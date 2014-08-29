@@ -1248,17 +1248,22 @@ input[type="checkbox"] {
   width: 100%;
 }
 
-/* line 60, ../sass/_buttons.scss */
+/* line 56, ../sass/_buttons.scss */
+.button-box {
+  width: 25%;
+}
+
+/* line 61, ../sass/_buttons.scss */
 .button-center {
   text-align: center;
 }
 
-/* line 61, ../sass/_buttons.scss */
+/* line 62, ../sass/_buttons.scss */
 .button-left {
   text-align: left;
 }
 
-/* line 62, ../sass/_buttons.scss */
+/* line 63, ../sass/_buttons.scss */
 .button-right {
   text-align: right;
 }

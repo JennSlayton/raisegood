@@ -1,0 +1,57 @@
+//RAISE GOOD - SIGNUP STYLES
+body {
+  font-family: $main-typeface;
+}
+
+a {text-decoration: none;}
+
+.signup-page {
+  
+  .main-nav-header {
+    
+    .left-nav {
+      float: left;
+        
+        li{
+          display: inline;
+          margin-top: 0;
+          padding: 0 1em 0 1em;
+        }
+        
+        a{
+          color: $base-red;
+          text-decoration: none; 
+        }    
+    }
+
+    .right-nav {
+      a{
+        color: $base-red;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .signup-main {
+    background:url(../images/raisegoodcover.png) no-repeat top center;
+    background-size:cover;
+    width:100%;
+    min-height:500px;
+    .container {
+      position: center;
+    }
+  }
+
+  .nav-footer {
+    text-align: center;
+    font-size: 18px;
+    
+    a{
+      color: $base-blue;
+      padding: 0.5em 1.5em;
+    }
+  }
+}    
+
+
+
