@@ -16,13 +16,15 @@ a{ text-decoration: none; }
         
         li{
           display: inline;
+          margin-top: 0;
+          padding: 0 1em 0 1em;
+        }
         
         a{
           color: $base-red;
           text-decoration: none; 
-        } 
-        
-      }  
+        }
+         
     }
     
     .right-nav {
@@ -32,6 +34,7 @@ a{ text-decoration: none; }
         display: inline;
       
         a {
+          ;
           text-decoration: none;
         }
       
@@ -50,7 +53,7 @@ a{ text-decoration: none; }
     min-height:500px;
       
     .main-header {
-      padding-top: 160px; 
+      padding-top: 230px; 
       text-align: center;
 
       .header-block-background{
@@ -66,9 +69,14 @@ a{ text-decoration: none; }
 
   .features {
     text-align: center;
+    
     h3 {
       color: $base-blue;
       padding-top: 50px;
+    }
+    img {
+      padding-top: 1em;
+      padding-bottom: 0;
     }
   
     .nav-link {
@@ -79,9 +87,10 @@ a{ text-decoration: none; }
 
   .searchline {
     text-align: center;
+    padding-bottom: 1em; 
     h4 {
       color: $base-blue;
-      padding-top: 50px;
+      padding-top: 1em;
     }
     a {
       text-decoration: none;
@@ -95,17 +104,43 @@ a{ text-decoration: none; }
     h3, h4, p {
       color: #FFFFFF;
     }
+
+    h3 {
+      padding: 1em 0 0.5em 0;
+      font-weight: 600;
+    }
+    h4 {
+      padding-bottom: 0.25em;
+      font-weight: 600;
+    }
+
+    p {
+      padding: 0 1em 1em 1em;
+    }
   }
 
   .quote-red-bg {
       background-color: $base-red;
+      min-height: 400px;
+      padding-top: 1em;
+      text-align: center;
+      
+      }
+      .scrolling-quote {
+        img {
+          float: left;
+          padding-bottom: 0;
+        }
+      }
   }
 
 
   .final-cta {
     text-align: center;
+    min-height: 225px;  
     h2 {
     color: $base-blue;
+    padding-top: 1em;
     }
     a {
       text-decoration: none;
@@ -118,6 +153,8 @@ a{ text-decoration: none; }
         text-align: center;
         h3 {
           color: $base-blue;
+          padding-top: 1em;
+          padding-bottom: 0.5em;
           text-align: center;
         }
         li {
@@ -125,18 +162,23 @@ a{ text-decoration: none; }
         }
         a {
           text-decoration: none;
+          padding: 0 1em; 
         }     
       }
-      img {
-        max-width: 100%;
+      
+      .line {
+      max-width: 150%;
       }
+
       .nav-footer {
-        color: $base-blue;
         text-align: center;
+        font-size: 18px;
+        a{
+          color: $base-blue;
+          padding: 0.5em 1.5em;
 
+        }
       }
-
-  }
-
 }
+
 
