@@ -1517,6 +1517,25 @@ a {
   padding: 0.5em 1.5em;
 }
 
+/* line 3, ../sass/_createpage.scss */
+.right-nav {
+  margin-top: 1.5em;
+}
+
+/* line 7, ../sass/_createpage.scss */
+.create-main {
+  background-color: #548699;
+}
+/* line 10, ../sass/_createpage.scss */
+.create-main h3 {
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 14, ../sass/_createpage.scss */
+.create-main button {
+  float: right;
+}
+
 /* line 2, ../sass/_signup.scss */
 body {
   font-family: "Raleway";

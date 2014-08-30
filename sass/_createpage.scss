@@ -1,5 +1,9 @@
 //RAISE GOOD - CREATEPAGE STYLES
 
+.right-nav {
+  margin-top: 1.5em;
+}
+
 .create-main {
   background-color: $base-blue;
     
@@ -7,10 +11,11 @@
     color: $base-white;
     text-align: center;
   }
-  a {
+  button {
     float: right;
-
   }
+
+  
 
 }
   

@@ -15,7 +15,7 @@
     
   </head>
 
-  <body class="createtwo-page">
+  <body class="createone-page">
     <header class="main-nav-header">
       <nav class="container">
         <ul class="left-nav">
@@ -32,23 +32,21 @@
     </header>  
     <div class="create-main">
       <div class="container">
-        <h3>What is the name of this fundraiser?</h3>
-        <div class="header-block-background six column offset-by-six">
-          <!--DROPDOWN MENU HERE-->
+        <h3>What type of fundraiser is this?</h3>
+          <input type="text" name="fundraiser-name" placeholder="Fundraiser Name">
           <a href="#" class="button button-red button-small">Next</a>
       </div>  
     </div>
     <div class="divider"></div>
 
-    <div class="nav-footer">
-        <div class="row">
-          <ul class="footer-nav">
-            <li><a href="#" class="nav-link">Browse</a></li>
-            <li><a href="createfr1.html" class="nav-link">Create</a></li>
-            <li><a href="#" class="nav-link">Donate</a>
-            </li>
-          </ul>
+    <div class="footer">
+        <div class="footer-nav container">
+          <li><a href="#" class="nav-link">Browse</a></li>
+          <li><a href="#" class="nav-link">Create</a></li>
+          <li><a href="#" class="nav-link">Donate</a>
+          </li>
         </div>
+
     </div> 
 
     <script>
