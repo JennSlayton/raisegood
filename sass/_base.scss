@@ -1,0 +1,16 @@
+body {
+  font-family: $main-typeface;
+}
+
+h1, h2, h3, h4, h5, h6{ font-family: $main-typeface }
+
+a{ text-decoration: none; }
+
+
+.divider{
+  border-bottom:  $border-base-blue;
+  border-top: solid 1px transparent;
+  height: 1px;
+  //margin: 1.3em 0 0 0;
+  width: 100%; 
+}

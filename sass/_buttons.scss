@@ -3,7 +3,7 @@
 	.button{
 		border: none;
 		border-radius: 15px;
-		color: $base-white!important;
+		color: $base-white !important;
 		display: inline-block;
 		font-family: $main-typeface;
 		font-size: 15px;
@@ -27,7 +27,8 @@
 
 	$buttons: (
 						 blue $base-blue $base-white,
-						 red $base-red $base-white
+						 red $base-red $base-white,
+						 fb $fb-blue $base-white, 
 						);
 
 	@each $button in $buttons{
@@ -53,7 +54,7 @@
 	.button-nav{ padding:12px 18px !important; margin:1em;  }
 	.button-large{ font-size: 18px; margin:1em; padding:15px 40px !important; }
 	.button-long{ width:100%; }
-	.button-box{width: 25%}
+	.button-box{width: 100%}
 
 
 	//BUTTON POSITION

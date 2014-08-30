@@ -1,56 +1,12 @@
 //RAISE GOOD - HOMEPAGE STYLES
-body {
-  font-family: $main-typeface;
-}
-
-h1, h2, h3, h4, h5, h6{ font-family: $main-typeface }
-
-a{ text-decoration: none; }
-
 .raise-good-homepage {
-  
-  .main-nav-header {
-    
-    .left-nav {
-      float: left;
-        
-        li{
-          display: inline;
-          margin-top: 0;
-          padding: 0 1em 0 1em;
-        }
-        
-        a{
-          color: $base-red;
-          text-decoration: none; 
-        }
-         
-    }
-    
-    .right-nav {
-      float: right; 
-      
-      li {
-        display: inline;
-      
-        a {
-          ;
-          text-decoration: none;
-        }
-      
-      }
-      
-      .right-link {
-        color: $base-red
-      }
-    }
-  }
 
   .main-header-image {
     background:url(../images/raisegoodcover.png) no-repeat top center;
     background-size:cover;
     width:100%;
     min-height:500px;
+    margin-top: 0;
       
     .main-header {
       padding-top: 230px; 
@@ -159,20 +115,22 @@ a{ text-decoration: none; }
         }
         li {
           display: inline;
+          padding: 0 2em;
         }
         a {
           text-decoration: none;
-          padding: 0 1em; 
+          padding: 0 2em; 
         }     
       }
       
-      .line {
-      max-width: 150%;
-      }
-
+      
       .nav-footer {
         text-align: center;
         font-size: 18px;
+        .row {
+          margin-bottom: 0;
+        }
+
         a{
           color: $base-blue;
           padding: 0.5em 1.5em;

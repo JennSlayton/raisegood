@@ -1,0 +1,45 @@
+.main-nav-header {
+  padding: 10px 0 0 0;
+  margin-bottom: 0;
+    
+  .left-nav {
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+      
+      li{
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0 1em 0 1em;
+        vertical-align: middle;
+      }
+      
+      a{
+        color: $base-red;
+        text-decoration: none; 
+      }
+       
+  }
+  
+  .right-nav {
+    float: right;
+    margin-bottom: 0;
+
+    
+    li {
+      display: inline;
+      vertical-align: middle;
+    
+      a {
+        color: $base-red;
+        text-decoration: none;
+      }
+    
+    }
+    
+    .right-link {
+      color: $base-red
+    }
+  }
+}
