@@ -1538,27 +1538,37 @@ a {
   width: 100%;
   min-height: 500px;
   margin-top: 0;
+  margin-bottom: 0;
 }
-/* line 22, ../sass/_signup.scss */
+/* line 23, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up {
   position: center;
   padding-top: 5em;
 }
-/* line 26, ../sass/_signup.scss */
+/* line 27, ../sass/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background {
+  margin-bottom: 0;
+}
+/* line 31, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up .information {
-  background-color: rgba(204, 10, 50, 0.7);
+  background-color: #c83c59;
   color: #FFFFFF;
-  padding: 1em 1.5em;
+  padding: 0.5em 0.5em;
   border-radius: 5px;
 }
-/* line 32, ../sass/_signup.scss */
+/* line 38, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up .information h3 {
   text-align: center;
   color: #FFFFFF;
-  padding: 0.25em 0 0.5em 0;
+  padding: 0.25em 0 0.25em 0;
 }
-/* line 37, ../sass/_signup.scss */
+/* line 43, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up .information input {
   border-radius: 5px;
   width: 100%;
+}
+/* line 47, ../sass/_signup.scss */
+.signup-page .signup-main-image .sign-up .information a {
+  margin: 1em 0 1em 0;
+  text-align: center;
 }
