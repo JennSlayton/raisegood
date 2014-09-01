@@ -6,16 +6,14 @@
 
 .create-main {
   background-color: $base-blue;
+  min-height: 500px;
     
   h3 {
     color: $base-white;
     text-align: center;
+    padding: 1.5em 0 1em 0;
   }
 
-  .end-date {
-    display: inline; 
-  }
-  
   .button {
     float: right;
   }

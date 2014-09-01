@@ -1525,17 +1525,15 @@ a {
 /* line 7, ../sass/_createpage.scss */
 .create-main {
   background-color: #548699;
+  min-height: 500px;
 }
-/* line 10, ../sass/_createpage.scss */
+/* line 11, ../sass/_createpage.scss */
 .create-main h3 {
   color: #FFFFFF;
   text-align: center;
+  padding: 1.5em 0 1em 0;
 }
-/* line 15, ../sass/_createpage.scss */
-.create-main .end-date {
-  display: inline;
-}
-/* line 19, ../sass/_createpage.scss */
+/* line 17, ../sass/_createpage.scss */
 .create-main .button {
   float: right;
 }
@@ -1594,4 +1592,15 @@ a {
 .signup-page .signup-main-image .sign-up .information a {
   margin: 1em 0 1em 0;
   text-align: center;
+}
+
+/* line 1, ../sass/create8.scss */
+.one-third {
+  text-align: center;
+  padding: 1em 0 1em 3em;
+}
+
+/* line 6, ../sass/create8.scss */
+.text {
+  padding: 1em;
 }

@@ -51,7 +51,7 @@ yearfield.options[0]=new Option(today.getFullYear(), today.getFullYear(), true, 
           <li>
             <a href="#" class="logo"> <img src="images/logo.png"> </a></li>
           <li><a href="#" class="nav-link">Browse</a></li>
-          <li><a href="createfr1.html" class="nav-link">Create</a></li>
+          <li><a href="create1.html" class="nav-link">Create</a></li>
           <li><a href="#" class="nav-link">Donate</a></li>
         </ul>
         <ul class="right-nav">
@@ -62,12 +62,13 @@ yearfield.options[0]=new Option(today.getFullYear(), today.getFullYear(), true, 
     <div class="create-main">
       <div class="container">
         <h3>When will the fundraiser end?</h3>
-          <div class="header-block-background six column offset-by-six">
-            <!--3 DROP DOWNS FOR DATE-->
             <form action="fr-end-date" name="end-date">
-              <select id="daydropdown"></select> 
-              <select id="monthdropdown"></select> 
-              <select id="yeardropdown"></select> 
+              <div class="one-third column">
+              <select id="monthdropdown"></select></div>
+              <div class="one-third column">
+              <select id="daydropdown"></select></div> 
+              <div class="one-third column">
+              <select id="yeardropdown"></select></div> 
             </form>
 
 <script type="text/javascript">
@@ -87,7 +88,7 @@ populatedropdown("daydropdown", "monthdropdown", "yeardropdown")
         <div class="row">
           <ul class="footer-nav">
             <li><a href="#" class="nav-link">Browse</a></li>
-            <li><a href="createfr1.html" class="nav-link">Create</a></li>
+            <li><a href="create1.html" class="nav-link">Create</a></li>
             <li><a href="#" class="nav-link">Donate</a>
             </li>
           </ul>
