@@ -11,11 +11,14 @@
     color: $base-white;
     text-align: center;
   }
-  button {
+
+  .end-date {
+    display: inline; 
+  }
+  
+  .button {
     float: right;
   }
-
-  
 
 }
   

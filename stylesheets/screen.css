@@ -1531,8 +1531,12 @@ a {
   color: #FFFFFF;
   text-align: center;
 }
-/* line 14, ../sass/_createpage.scss */
-.create-main button {
+/* line 15, ../sass/_createpage.scss */
+.create-main .end-date {
+  display: inline;
+}
+/* line 19, ../sass/_createpage.scss */
+.create-main .button {
   float: right;
 }
 
