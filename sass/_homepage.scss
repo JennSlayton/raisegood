@@ -1,6 +1,13 @@
 //RAISE GOOD - HOMEPAGE STYLES
 .raise-good-homepage {
 
+  .main-nav-header {
+    .right-nav {
+      margin-bottom: 0;
+      margin-top: 0 !important;
+    }
+  }
+
   .main-header-image {
     background:url(../images/raisegoodcover.png) no-repeat top center;
     background-size:cover;
@@ -23,22 +30,30 @@
     }
   }
 
-  .features {
-    text-align: center;
-    
+  .features-heading {
     h3 {
-      color: $base-blue;
-      padding-top: 50px;
+    text-align: center;
+    color: $base-blue;
+    padding-top: 50px;
+    padding-bottom: 30px;
     }
-    img {
-      padding-top: 1em;
+    
+  }
+    .features-images {
       padding-bottom: 0;
-    }
-  
-    .nav-link {
-      font-size: 18px;
-      text-decoration: none;
-    }
+      text-align: center;
+
+    }  
+      .one-third {
+        padding: 0 !important;
+      }
+        a {
+        font-size: 18px;
+        text-decoration: none;
+        text-align: center;
+
+        
+        }
   }
 
   .searchline {
@@ -81,7 +96,6 @@
       padding-top: 1em;
       text-align: center;
       
-      }
       .scrolling-quote {
         img {
           float: left;

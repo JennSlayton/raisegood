@@ -1329,19 +1329,18 @@ a {
 /* line 25, ../sass/_navbar.scss */
 .main-nav-header .right-nav {
   float: right;
-  margin-bottom: 0;
 }
-/* line 30, ../sass/_navbar.scss */
+/* line 29, ../sass/_navbar.scss */
 .main-nav-header .right-nav li {
   display: inline;
   vertical-align: middle;
 }
-/* line 34, ../sass/_navbar.scss */
+/* line 33, ../sass/_navbar.scss */
 .main-nav-header .right-nav li a {
   color: #CC0A32;
   text-decoration: none;
 }
-/* line 41, ../sass/_navbar.scss */
+/* line 40, ../sass/_navbar.scss */
 .main-nav-header .right-nav .right-link {
   color: #CC0A32;
 }
@@ -1374,7 +1373,12 @@ a {
   padding: 0.5em 1.5em;
 }
 
-/* line 4, ../sass/_homepage.scss */
+/* line 5, ../sass/_homepage.scss */
+.raise-good-homepage .main-nav-header .right-nav {
+  margin-bottom: 0;
+  margin-top: 0 !important;
+}
+/* line 11, ../sass/_homepage.scss */
 .raise-good-homepage .main-header-image {
   background: url(../images/raisegoodcover.png) no-repeat top center;
   background-size: cover;
@@ -1382,136 +1386,142 @@ a {
   min-height: 500px;
   margin-top: 0;
 }
-/* line 11, ../sass/_homepage.scss */
+/* line 18, ../sass/_homepage.scss */
 .raise-good-homepage .main-header-image .main-header {
   padding-top: 230px;
   text-align: center;
 }
-/* line 17, ../sass/_homepage.scss */
+/* line 24, ../sass/_homepage.scss */
 .raise-good-homepage .main-header-image .main-header .header-block-background h1 {
   background-color: rgba(204, 10, 50, 0.7);
   color: #FFFFFF;
   padding: 0.2em 0.8em;
 }
-/* line 26, ../sass/_homepage.scss */
-.raise-good-homepage .features {
+/* line 34, ../sass/_homepage.scss */
+.raise-good-homepage .features-heading h3 {
   text-align: center;
-}
-/* line 29, ../sass/_homepage.scss */
-.raise-good-homepage .features h3 {
   color: #548699;
   padding-top: 50px;
+  padding-bottom: 30px;
 }
-/* line 33, ../sass/_homepage.scss */
-.raise-good-homepage .features img {
-  padding-top: 1em;
+/* line 42, ../sass/_homepage.scss */
+.raise-good-homepage .features-images {
   padding-bottom: 0;
+  text-align: center;
 }
-/* line 38, ../sass/_homepage.scss */
-.raise-good-homepage .features .nav-link {
+/* line 47, ../sass/_homepage.scss */
+.raise-good-homepage .one-third {
+  padding: 0 !important;
+}
+/* line 50, ../sass/_homepage.scss */
+.raise-good-homepage a {
   font-size: 18px;
   text-decoration: none;
+  text-align: center;
 }
-/* line 44, ../sass/_homepage.scss */
-.raise-good-homepage .searchline {
+
+/* line 59, ../sass/_homepage.scss */
+.searchline {
   text-align: center;
   padding-bottom: 1em;
 }
-/* line 47, ../sass/_homepage.scss */
-.raise-good-homepage .searchline h4 {
+/* line 62, ../sass/_homepage.scss */
+.searchline h4 {
   color: #548699;
   padding-top: 1em;
 }
-/* line 51, ../sass/_homepage.scss */
-.raise-good-homepage .searchline a {
+/* line 66, ../sass/_homepage.scss */
+.searchline a {
   text-decoration: none;
 }
-/* line 56, ../sass/_homepage.scss */
-.raise-good-homepage .how-it-works {
+
+/* line 71, ../sass/_homepage.scss */
+.how-it-works {
   background-color: #548699;
   text-align: center;
 }
-/* line 60, ../sass/_homepage.scss */
-.raise-good-homepage .how-it-works h3, .raise-good-homepage .how-it-works h4, .raise-good-homepage .how-it-works p {
+/* line 75, ../sass/_homepage.scss */
+.how-it-works h3, .how-it-works h4, .how-it-works p {
   color: #FFFFFF;
 }
-/* line 64, ../sass/_homepage.scss */
-.raise-good-homepage .how-it-works h3 {
+/* line 79, ../sass/_homepage.scss */
+.how-it-works h3 {
   padding: 1em 0 0.5em 0;
   font-weight: 600;
 }
-/* line 68, ../sass/_homepage.scss */
-.raise-good-homepage .how-it-works h4 {
+/* line 83, ../sass/_homepage.scss */
+.how-it-works h4 {
   padding-bottom: 0.25em;
   font-weight: 600;
 }
-/* line 73, ../sass/_homepage.scss */
-.raise-good-homepage .how-it-works p {
+/* line 88, ../sass/_homepage.scss */
+.how-it-works p {
   padding: 0 1em 1em 1em;
 }
-/* line 78, ../sass/_homepage.scss */
-.raise-good-homepage .quote-red-bg {
+
+/* line 93, ../sass/_homepage.scss */
+.quote-red-bg {
   background-color: #CC0A32;
   min-height: 400px;
   padding-top: 1em;
   text-align: center;
 }
-/* line 86, ../sass/_homepage.scss */
-.raise-good-homepage .scrolling-quote img {
+/* line 100, ../sass/_homepage.scss */
+.quote-red-bg .scrolling-quote img {
   float: left;
   padding-bottom: 0;
 }
 
-/* line 94, ../sass/_homepage.scss */
+/* line 108, ../sass/_homepage.scss */
 .final-cta {
   text-align: center;
   min-height: 225px;
 }
-/* line 97, ../sass/_homepage.scss */
+/* line 111, ../sass/_homepage.scss */
 .final-cta h2 {
   color: #548699;
   padding-top: 1em;
 }
-/* line 101, ../sass/_homepage.scss */
+/* line 115, ../sass/_homepage.scss */
 .final-cta a {
   text-decoration: none;
 }
 
-/* line 106, ../sass/_homepage.scss */
+/* line 120, ../sass/_homepage.scss */
 .footer {
   background-color: #d7d7d7;
 }
-/* line 108, ../sass/_homepage.scss */
+/* line 122, ../sass/_homepage.scss */
 .footer .container {
   text-align: center;
 }
-/* line 110, ../sass/_homepage.scss */
+/* line 124, ../sass/_homepage.scss */
 .footer .container h3 {
   color: #548699;
   padding-top: 1em;
   padding-bottom: 0.5em;
   text-align: center;
 }
-/* line 116, ../sass/_homepage.scss */
+/* line 130, ../sass/_homepage.scss */
 .footer .container li {
   display: inline;
   padding: 0 2em;
 }
-/* line 120, ../sass/_homepage.scss */
+/* line 134, ../sass/_homepage.scss */
 .footer .container a {
   text-decoration: none;
   padding: 0 2em;
 }
-/* line 127, ../sass/_homepage.scss */
+/* line 141, ../sass/_homepage.scss */
 .footer .nav-footer {
   text-align: center;
   font-size: 18px;
 }
-/* line 130, ../sass/_homepage.scss */
+/* line 144, ../sass/_homepage.scss */
 .footer .nav-footer .row {
   margin-bottom: 0;
 }
-/* line 134, ../sass/_homepage.scss */
+/* line 148, ../sass/_homepage.scss */
 .footer .nav-footer a {
   color: #548699;
   padding: 0.5em 1.5em;
@@ -1548,11 +1558,11 @@ a {
   text-decoration: none;
 }
 
-/* line 10, ../sass/_signup.scss */
-.signup-page .right-nav {
+/* line 11, ../sass/_signup.scss */
+.signup-page .right-nav .right-navlink {
   margin-top: 1.5em;
 }
-/* line 15, ../sass/_signup.scss */
+/* line 17, ../sass/_signup.scss */
 .signup-page .signup-main-image {
   background: url(../images/raisegoodcover.png) no-repeat top center;
   background-size: cover;
@@ -1561,46 +1571,46 @@ a {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 23, ../sass/_signup.scss */
+/* line 25, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up {
   position: center;
   padding-top: 5em;
 }
-/* line 27, ../sass/_signup.scss */
+/* line 29, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background {
   margin-bottom: 0;
 }
-/* line 31, ../sass/_signup.scss */
+/* line 33, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up .information {
   background-color: #c83c59;
   color: #FFFFFF;
   padding: 0.5em 0.5em;
   border-radius: 5px;
 }
-/* line 38, ../sass/_signup.scss */
+/* line 40, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up .information h3 {
   text-align: center;
   color: #FFFFFF;
   padding: 0.25em 0 0.25em 0;
 }
-/* line 43, ../sass/_signup.scss */
+/* line 45, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up .information input {
   border-radius: 5px;
   width: 100%;
 }
-/* line 47, ../sass/_signup.scss */
+/* line 49, ../sass/_signup.scss */
 .signup-page .signup-main-image .sign-up .information a {
   margin: 1em 0 1em 0;
   text-align: center;
 }
 
-/* line 1, ../sass/create8.scss */
+/* line 1, ../sass/_create8.scss */
 .one-third {
   text-align: center;
   padding: 1em 0 1em 3em;
 }
 
-/* line 6, ../sass/create8.scss */
+/* line 6, ../sass/_create8.scss */
 .text {
   padding: 1em;
 }
