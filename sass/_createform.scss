@@ -11,38 +11,39 @@
 }
 
 /* Title */
-  .fs-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 40px;
-    width: 100%;
-  }
+.fs-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 40px;
+  width: 100%;
+}  
 
-    h1 {
-      margin: 0;
-    }
+.fs-title h1 {
+  margin: 0;
+}
 
 
 /* Form */
-  .fs-form {
-    position: relative;
-    text-align: left;
-    font-size: 2.5em;
-  }
+.fs-form {
+  position: relative;
+  text-align: left;
+  font-size: 2.5em;
+}
 //CONFUSED WITH .NO-JS//
 .no-js .fs-form {
   padding: 0 0 6em 0;
 }
 
 /* Views (fullscreen and overview)*/
-    .fs-form-full {
-      top: 32%;
-      margin: 0 auto;
-      width: 70%;
-    }
+.fs-form-full {
+  top: 32%;
+  margin: 0 auto;
+  width: 70%;
+}
 //CONFUSED WITH .FS-MESSAGE-ERROR//
+.fs-form-full,
 .fs-message-error {
   max-width: 960px;
 }
@@ -145,7 +146,7 @@ button.fs-continue,
 }
 
 .fs-form-overview ol {
-  max-width: ;
+  max-width: 1px ;
 }
 
 .fs-fields > li {
