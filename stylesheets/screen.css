@@ -1373,6 +1373,74 @@ a {
   padding: 0.5em 1.5em;
 }
 
+/* line 1, ../sass/_dropdown.scss */
+.dropdown {
+  color: #555;
+  margin: 3px -22px 0 0;
+  width: 143px;
+  position: relative;
+  height: 17px;
+  text-align: left;
+}
+/* line 9, ../sass/_dropdown.scss */
+.dropdown li a {
+  color: #555555;
+  display: block;
+  font-family: arial;
+  font-weight: bold;
+  padding: 6px 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 18, ../sass/_dropdown.scss */
+.dropdown li a:hover {
+  background: #155FB0;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* line 26, ../sass/_dropdown.scss */
+.submenu {
+  background: #fff;
+  position: absolute;
+  top: -12px;
+  left: -20px;
+  z-index: 100;
+  width: 135px;
+  display: none;
+  margin-left: 10px;
+  padding: 40px 0 5px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+/* line 40, ../sass/_dropdown.scss */
+a.account {
+  font-size: 11px;
+  line-height: 16px;
+  color: #555;
+  position: absolute;
+  z-index: 110;
+  display: block;
+  padding: 11px 0 0 20px;
+  height: 28px;
+  width: 121px;
+  margin: -11px 0 0 -10px;
+  text-decoration: none;
+  background: url(icons/arrow.png) 116px 17px no-repeat;
+  cursor: pointer;
+}
+
+/* line 55, ../sass/_dropdown.scss */
+.root {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+  padding: 11px 0 0 0px;
+  border-top: 1px solid #dedede;
+}
+
 /* line 5, ../sass/_homepage.scss */
 .raise-good-homepage .main-nav-header .right-nav {
   margin-bottom: 0;
@@ -1527,27 +1595,6 @@ a {
   padding: 0.5em 1.5em;
 }
 
-/* line 3, ../sass/_createpage.scss */
-.right-nav {
-  margin-top: 1.5em;
-}
-
-/* line 7, ../sass/_createpage.scss */
-.create-main {
-  background-color: #548699;
-  min-height: 500px;
-}
-/* line 11, ../sass/_createpage.scss */
-.create-main h3 {
-  color: #FFFFFF;
-  text-align: center;
-  padding: 1.5em 0 1em 0;
-}
-/* line 17, ../sass/_createpage.scss */
-.create-main .button {
-  float: right;
-}
-
 /* line 2, ../sass/_signup.scss */
 body {
   font-family: "Raleway";
@@ -1602,15 +1649,4 @@ a {
 .signup-page .signup-main-image .sign-up .information a {
   margin: 1em 0 1em 0;
   text-align: center;
-}
-
-/* line 1, ../sass/_create8.scss */
-.one-third {
-  text-align: center;
-  padding: 1em 0 1em 3em;
-}
-
-/* line 6, ../sass/_create8.scss */
-.text {
-  padding: 1em;
 }

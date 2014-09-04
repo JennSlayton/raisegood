@@ -3,15 +3,20 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+//GLOBAL STYLES
 @import "compass/reset";
 @import "skeleton";
 @import "variables";
 @import "buttons";
 @import "base";
 
+//APPLICATION STYLES
 @import "navbar";
 @import "navfooter";
+@import "dropdown";
 @import "homepage";
-@import "createpage";
 @import "signup";
-@import "create8";
+
+
+
+//PLUGIN STYLES 
