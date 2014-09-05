@@ -1280,22 +1280,27 @@ input[type="checkbox"] {
 }
 
 /* line 1, ../sass/global/_base.scss */
+html, body {
+  overflow-x: hidden;
+}
+
+/* line 4, ../sass/global/_base.scss */
 body {
   background-color: #FFFFFF;
   font-family: "Raleway";
 }
 
-/* line 6, ../sass/global/_base.scss */
+/* line 9, ../sass/global/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway";
 }
 
-/* line 8, ../sass/global/_base.scss */
+/* line 11, ../sass/global/_base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 11, ../sass/global/_base.scss */
+/* line 14, ../sass/global/_base.scss */
 .divider {
   border-bottom: 1px solid #548699;
   border-top: solid 1px transparent;
