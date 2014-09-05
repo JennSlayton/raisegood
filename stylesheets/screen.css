@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,600);
-/* line 5, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -1179,7 +1179,7 @@ input[type="checkbox"] {
 @media only screen and (max-width: 479px) {
   /* add code here */
 }
-/* line 3, ../sass/_buttons.scss */
+/* line 3, ../sass/global/_buttons.scss */
 .button {
   border: none;
   border-radius: 15px;
@@ -1189,112 +1189,113 @@ input[type="checkbox"] {
   font-size: 15px;
   padding: 10px 20px;
 }
-/* line 12, ../sass/_buttons.scss */
+/* line 12, ../sass/global/_buttons.scss */
 .button:hover {
   border: none;
   cursor: pointer;
   opacity: 0.8;
 }
-/* line 18, ../sass/_buttons.scss */
+/* line 18, ../sass/global/_buttons.scss */
 .button:focus {
   border: none;
   outline: none;
   text-decoration: none;
 }
 
-/* line 39, ../sass/_buttons.scss */
+/* line 39, ../sass/global/_buttons.scss */
 .button-blue {
   background-color: #548699;
   color: #FFFFFF;
 }
-/* line 43, ../sass/_buttons.scss */
+/* line 43, ../sass/global/_buttons.scss */
 .button-blue:hover {
   background-color: #4b7889;
   color: #FFFFFF;
 }
 
-/* line 39, ../sass/_buttons.scss */
+/* line 39, ../sass/global/_buttons.scss */
 .button-red {
   background-color: #CC0A32;
   color: #FFFFFF;
 }
-/* line 43, ../sass/_buttons.scss */
+/* line 43, ../sass/global/_buttons.scss */
 .button-red:hover {
   background-color: #b7092d;
   color: #FFFFFF;
 }
 
-/* line 39, ../sass/_buttons.scss */
+/* line 39, ../sass/global/_buttons.scss */
 .button-fb {
   background-color: #3b5998;
   color: #FFFFFF;
 }
-/* line 43, ../sass/_buttons.scss */
+/* line 43, ../sass/global/_buttons.scss */
 .button-fb:hover {
   background-color: #355088;
   color: #FFFFFF;
 }
 
-/* line 53, ../sass/_buttons.scss */
+/* line 53, ../sass/global/_buttons.scss */
 .button-small {
   padding: 8px 10px !important;
   margin: 1em;
 }
 
-/* line 54, ../sass/_buttons.scss */
+/* line 54, ../sass/global/_buttons.scss */
 .button-nav {
   padding: 12px 18px !important;
   margin: 1em;
 }
 
-/* line 55, ../sass/_buttons.scss */
+/* line 55, ../sass/global/_buttons.scss */
 .button-large {
   font-size: 18px;
   margin: 1em;
   padding: 15px 40px !important;
 }
 
-/* line 56, ../sass/_buttons.scss */
+/* line 56, ../sass/global/_buttons.scss */
 .button-long {
   width: 100%;
 }
 
-/* line 57, ../sass/_buttons.scss */
+/* line 57, ../sass/global/_buttons.scss */
 .button-box {
   width: 100%;
 }
 
-/* line 62, ../sass/_buttons.scss */
+/* line 62, ../sass/global/_buttons.scss */
 .button-center {
   text-align: center;
 }
 
-/* line 63, ../sass/_buttons.scss */
+/* line 63, ../sass/global/_buttons.scss */
 .button-left {
   text-align: left;
 }
 
-/* line 64, ../sass/_buttons.scss */
+/* line 64, ../sass/global/_buttons.scss */
 .button-right {
   text-align: right;
 }
 
-/* line 1, ../sass/_base.scss */
+/* line 1, ../sass/global/_base.scss */
 body {
+  background-color: #FFFFFF;
   font-family: "Raleway";
 }
 
-/* line 5, ../sass/_base.scss */
+/* line 6, ../sass/global/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway";
 }
 
-/* line 7, ../sass/_base.scss */
+/* line 8, ../sass/global/_base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 10, ../sass/_base.scss */
+/* line 11, ../sass/global/_base.scss */
 .divider {
   border-bottom: 1px solid #548699;
   border-top: solid 1px transparent;
@@ -1302,18 +1303,18 @@ a {
   width: 100%;
 }
 
-/* line 1, ../sass/_navbar.scss */
+/* line 1, ../sass/global/_navbar.scss */
 .main-nav-header {
   padding: 10px 0 0 0;
   margin-bottom: 0;
 }
-/* line 5, ../sass/_navbar.scss */
+/* line 5, ../sass/global/_navbar.scss */
 .main-nav-header .left-nav {
   float: left;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 10, ../sass/_navbar.scss */
+/* line 10, ../sass/global/_navbar.scss */
 .main-nav-header .left-nav li {
   display: inline-block;
   margin-top: 0;
@@ -1321,31 +1322,31 @@ a {
   padding: 0 1em 0 1em;
   vertical-align: middle;
 }
-/* line 18, ../sass/_navbar.scss */
+/* line 18, ../sass/global/_navbar.scss */
 .main-nav-header .left-nav a {
   color: #CC0A32;
   text-decoration: none;
 }
-/* line 25, ../sass/_navbar.scss */
+/* line 25, ../sass/global/_navbar.scss */
 .main-nav-header .right-nav {
   float: right;
 }
-/* line 29, ../sass/_navbar.scss */
+/* line 29, ../sass/global/_navbar.scss */
 .main-nav-header .right-nav li {
   display: inline;
   vertical-align: middle;
 }
-/* line 33, ../sass/_navbar.scss */
+/* line 33, ../sass/global/_navbar.scss */
 .main-nav-header .right-nav li a {
   color: #CC0A32;
   text-decoration: none;
 }
-/* line 40, ../sass/_navbar.scss */
+/* line 40, ../sass/global/_navbar.scss */
 .main-nav-header .right-nav .right-link {
   color: #CC0A32;
 }
 
-/* line 3, ../sass/_navfooter.scss */
+/* line 3, ../sass/global/_navfooter.scss */
 .nav-footer {
   background-color: #d7d7d7;
   text-align: center;
@@ -1353,27 +1354,181 @@ a {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 10, ../sass/_navfooter.scss */
+/* line 10, ../sass/global/_navfooter.scss */
 .nav-footer .row {
   margin-bottom: 0;
   padding-top: 1em;
 }
-/* line 14, ../sass/_navfooter.scss */
+/* line 14, ../sass/global/_navfooter.scss */
 .nav-footer .footer-nav {
   padding-bottom: 1em;
 }
-/* line 17, ../sass/_navfooter.scss */
+/* line 17, ../sass/global/_navfooter.scss */
 .nav-footer li {
   display: inline;
   padding: 0 2em;
 }
-/* line 22, ../sass/_navfooter.scss */
+/* line 22, ../sass/global/_navfooter.scss */
 .nav-footer a {
   color: #548699;
   padding: 0.5em 1.5em;
 }
 
-/* line 1, ../sass/_dropdown.scss */
+/* line 5, ../sass/marketing/_homepage.scss */
+.raise-good-homepage .main-nav-header .right-nav {
+  margin-bottom: 0;
+  margin-top: 0 !important;
+}
+/* line 11, ../sass/marketing/_homepage.scss */
+.raise-good-homepage .main-header-image {
+  background: url(../images/raisegoodcover.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  margin-top: 0;
+}
+/* line 18, ../sass/marketing/_homepage.scss */
+.raise-good-homepage .main-header-image .main-header {
+  padding-top: 230px;
+  text-align: center;
+}
+/* line 24, ../sass/marketing/_homepage.scss */
+.raise-good-homepage .main-header-image .main-header .header-block-background h1 {
+  background-color: rgba(204, 10, 50, 0.7);
+  color: #FFFFFF;
+  padding: 0.2em 0.8em;
+}
+/* line 34, ../sass/marketing/_homepage.scss */
+.raise-good-homepage .features-heading h3 {
+  text-align: center;
+  color: #548699;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+/* line 42, ../sass/marketing/_homepage.scss */
+.raise-good-homepage .features-images {
+  padding-bottom: 0;
+  text-align: center;
+}
+/* line 47, ../sass/marketing/_homepage.scss */
+.raise-good-homepage .one-third {
+  padding: 0 !important;
+}
+/* line 50, ../sass/marketing/_homepage.scss */
+.raise-good-homepage a {
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* line 59, ../sass/marketing/_homepage.scss */
+.searchline {
+  text-align: center;
+  padding-bottom: 1em;
+}
+/* line 62, ../sass/marketing/_homepage.scss */
+.searchline h4 {
+  color: #548699;
+  padding-top: 1em;
+}
+/* line 66, ../sass/marketing/_homepage.scss */
+.searchline a {
+  text-decoration: none;
+}
+
+/* line 71, ../sass/marketing/_homepage.scss */
+.how-it-works {
+  background-color: #548699;
+  text-align: center;
+}
+/* line 75, ../sass/marketing/_homepage.scss */
+.how-it-works h3, .how-it-works h4, .how-it-works p {
+  color: #FFFFFF;
+}
+/* line 79, ../sass/marketing/_homepage.scss */
+.how-it-works h3 {
+  padding: 1em 0 0.5em 0;
+  font-weight: 600;
+}
+/* line 83, ../sass/marketing/_homepage.scss */
+.how-it-works h4 {
+  padding-bottom: 0.25em;
+  font-weight: 600;
+}
+/* line 88, ../sass/marketing/_homepage.scss */
+.how-it-works p {
+  padding: 0 1em 1em 1em;
+}
+
+/* line 93, ../sass/marketing/_homepage.scss */
+.quote-red-bg {
+  background-color: #CC0A32;
+  min-height: 400px;
+  padding-top: 1em;
+  text-align: center;
+}
+/* line 100, ../sass/marketing/_homepage.scss */
+.quote-red-bg .scrolling-quote img {
+  float: left;
+  padding-bottom: 0;
+}
+
+/* line 108, ../sass/marketing/_homepage.scss */
+.final-cta {
+  text-align: center;
+  min-height: 225px;
+}
+/* line 111, ../sass/marketing/_homepage.scss */
+.final-cta h2 {
+  color: #548699;
+  padding-top: 1em;
+}
+/* line 115, ../sass/marketing/_homepage.scss */
+.final-cta a {
+  text-decoration: none;
+}
+
+/* line 120, ../sass/marketing/_homepage.scss */
+.footer {
+  background-color: #d7d7d7;
+}
+/* line 122, ../sass/marketing/_homepage.scss */
+.footer .container {
+  text-align: center;
+}
+/* line 124, ../sass/marketing/_homepage.scss */
+.footer .container h3 {
+  color: #548699;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+/* line 130, ../sass/marketing/_homepage.scss */
+.footer .container li {
+  display: inline;
+  padding: 0 2em;
+}
+/* line 134, ../sass/marketing/_homepage.scss */
+.footer .container a {
+  text-decoration: none;
+  padding: 0 2em;
+}
+/* line 141, ../sass/marketing/_homepage.scss */
+.footer .nav-footer {
+  text-align: center;
+  font-size: 18px;
+}
+/* line 144, ../sass/marketing/_homepage.scss */
+.footer .nav-footer .row {
+  margin-bottom: 0;
+}
+/* line 148, ../sass/marketing/_homepage.scss */
+.footer .nav-footer a {
+  color: #548699;
+  padding: 0.5em 1.5em;
+}
+
+/* line 1, ../sass/marketing/_dropdown.scss */
 .dropdown {
   color: #555;
   margin: 3px -22px 0 0;
@@ -1382,7 +1537,7 @@ a {
   height: 17px;
   text-align: left;
 }
-/* line 9, ../sass/_dropdown.scss */
+/* line 9, ../sass/marketing/_dropdown.scss */
 .dropdown li a {
   color: #555555;
   display: block;
@@ -1392,14 +1547,14 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 18, ../sass/_dropdown.scss */
+/* line 18, ../sass/marketing/_dropdown.scss */
 .dropdown li a:hover {
   background: #155FB0;
   color: #FFFFFF;
   text-decoration: none;
 }
 
-/* line 26, ../sass/_dropdown.scss */
+/* line 26, ../sass/marketing/_dropdown.scss */
 .submenu {
   background: #fff;
   position: absolute;
@@ -1414,7 +1569,7 @@ a {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
 }
 
-/* line 40, ../sass/_dropdown.scss */
+/* line 40, ../sass/marketing/_dropdown.scss */
 a.account {
   font-size: 11px;
   line-height: 16px;
@@ -1431,7 +1586,7 @@ a.account {
   cursor: pointer;
 }
 
-/* line 55, ../sass/_dropdown.scss */
+/* line 55, ../sass/marketing/_dropdown.scss */
 .root {
   list-style: none;
   margin: 0px;
@@ -1441,175 +1596,21 @@ a.account {
   border-top: 1px solid #dedede;
 }
 
-/* line 5, ../sass/_homepage.scss */
-.raise-good-homepage .main-nav-header .right-nav {
-  margin-bottom: 0;
-  margin-top: 0 !important;
-}
-/* line 11, ../sass/_homepage.scss */
-.raise-good-homepage .main-header-image {
-  background: url(../images/raisegoodcover.png) no-repeat top center;
-  background-size: cover;
-  width: 100%;
-  min-height: 500px;
-  margin-top: 0;
-}
-/* line 18, ../sass/_homepage.scss */
-.raise-good-homepage .main-header-image .main-header {
-  padding-top: 230px;
-  text-align: center;
-}
-/* line 24, ../sass/_homepage.scss */
-.raise-good-homepage .main-header-image .main-header .header-block-background h1 {
-  background-color: rgba(204, 10, 50, 0.7);
-  color: #FFFFFF;
-  padding: 0.2em 0.8em;
-}
-/* line 34, ../sass/_homepage.scss */
-.raise-good-homepage .features-heading h3 {
-  text-align: center;
-  color: #548699;
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-/* line 42, ../sass/_homepage.scss */
-.raise-good-homepage .features-images {
-  padding-bottom: 0;
-  text-align: center;
-}
-/* line 47, ../sass/_homepage.scss */
-.raise-good-homepage .one-third {
-  padding: 0 !important;
-}
-/* line 50, ../sass/_homepage.scss */
-.raise-good-homepage a {
-  font-size: 18px;
-  text-decoration: none;
-  text-align: center;
-}
-
-/* line 59, ../sass/_homepage.scss */
-.searchline {
-  text-align: center;
-  padding-bottom: 1em;
-}
-/* line 62, ../sass/_homepage.scss */
-.searchline h4 {
-  color: #548699;
-  padding-top: 1em;
-}
-/* line 66, ../sass/_homepage.scss */
-.searchline a {
-  text-decoration: none;
-}
-
-/* line 71, ../sass/_homepage.scss */
-.how-it-works {
-  background-color: #548699;
-  text-align: center;
-}
-/* line 75, ../sass/_homepage.scss */
-.how-it-works h3, .how-it-works h4, .how-it-works p {
-  color: #FFFFFF;
-}
-/* line 79, ../sass/_homepage.scss */
-.how-it-works h3 {
-  padding: 1em 0 0.5em 0;
-  font-weight: 600;
-}
-/* line 83, ../sass/_homepage.scss */
-.how-it-works h4 {
-  padding-bottom: 0.25em;
-  font-weight: 600;
-}
-/* line 88, ../sass/_homepage.scss */
-.how-it-works p {
-  padding: 0 1em 1em 1em;
-}
-
-/* line 93, ../sass/_homepage.scss */
-.quote-red-bg {
-  background-color: #CC0A32;
-  min-height: 400px;
-  padding-top: 1em;
-  text-align: center;
-}
-/* line 100, ../sass/_homepage.scss */
-.quote-red-bg .scrolling-quote img {
-  float: left;
-  padding-bottom: 0;
-}
-
-/* line 108, ../sass/_homepage.scss */
-.final-cta {
-  text-align: center;
-  min-height: 225px;
-}
-/* line 111, ../sass/_homepage.scss */
-.final-cta h2 {
-  color: #548699;
-  padding-top: 1em;
-}
-/* line 115, ../sass/_homepage.scss */
-.final-cta a {
-  text-decoration: none;
-}
-
-/* line 120, ../sass/_homepage.scss */
-.footer {
-  background-color: #d7d7d7;
-}
-/* line 122, ../sass/_homepage.scss */
-.footer .container {
-  text-align: center;
-}
-/* line 124, ../sass/_homepage.scss */
-.footer .container h3 {
-  color: #548699;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
-  text-align: center;
-}
-/* line 130, ../sass/_homepage.scss */
-.footer .container li {
-  display: inline;
-  padding: 0 2em;
-}
-/* line 134, ../sass/_homepage.scss */
-.footer .container a {
-  text-decoration: none;
-  padding: 0 2em;
-}
-/* line 141, ../sass/_homepage.scss */
-.footer .nav-footer {
-  text-align: center;
-  font-size: 18px;
-}
-/* line 144, ../sass/_homepage.scss */
-.footer .nav-footer .row {
-  margin-bottom: 0;
-}
-/* line 148, ../sass/_homepage.scss */
-.footer .nav-footer a {
-  color: #548699;
-  padding: 0.5em 1.5em;
-}
-
-/* line 2, ../sass/_signup.scss */
+/* line 2, ../sass/application/_signup.scss */
 body {
   font-family: "Raleway";
 }
 
-/* line 6, ../sass/_signup.scss */
+/* line 6, ../sass/application/_signup.scss */
 a {
   text-decoration: none;
 }
 
-/* line 11, ../sass/_signup.scss */
+/* line 11, ../sass/application/_signup.scss */
 .signup-page .right-nav .right-navlink {
   margin-top: 1.5em;
 }
-/* line 17, ../sass/_signup.scss */
+/* line 17, ../sass/application/_signup.scss */
 .signup-page .signup-main-image {
   background: url(../images/raisegoodcover.png) no-repeat top center;
   background-size: cover;
@@ -1618,34 +1619,34 @@ a {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 25, ../sass/_signup.scss */
+/* line 25, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up {
   position: center;
   padding-top: 5em;
 }
-/* line 29, ../sass/_signup.scss */
+/* line 29, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background {
   margin-bottom: 0;
 }
-/* line 33, ../sass/_signup.scss */
+/* line 33, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .information {
   background-color: #c83c59;
   color: #FFFFFF;
   padding: 0.5em 0.5em;
   border-radius: 5px;
 }
-/* line 40, ../sass/_signup.scss */
+/* line 40, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .information h3 {
   text-align: center;
   color: #FFFFFF;
   padding: 0.25em 0 0.25em 0;
 }
-/* line 45, ../sass/_signup.scss */
+/* line 45, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .information input {
   border-radius: 5px;
   width: 100%;
 }
-/* line 49, ../sass/_signup.scss */
+/* line 49, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .information a {
   margin: 1em 0 1em 0;
   text-align: center;

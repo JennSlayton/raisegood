@@ -28,7 +28,7 @@
 	$buttons: (
 						 blue $base-blue $base-white,
 						 red $base-red $base-white,
-						 fb $fb-blue $base-white, 
+						 fb $secondary-blue $base-white, 
 						);
 
 	@each $button in $buttons{

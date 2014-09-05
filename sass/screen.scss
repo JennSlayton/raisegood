@@ -6,17 +6,15 @@
 //GLOBAL STYLES
 @import "compass/reset";
 @import "skeleton";
-@import "variables";
-@import "buttons";
-@import "base";
+@import "global/variables";
+@import "global/buttons";
+@import "global/base";
+@import "global/navbar";
+@import "global/navfooter";
+
+//MARKETING STYLES
+@import "marketing/homepage";
+@import "marketing/dropdown";
 
 //APPLICATION STYLES
-@import "navbar";
-@import "navfooter";
-@import "dropdown";
-@import "homepage";
-@import "signup";
-
-
-
-//PLUGIN STYLES 
+@import "application/signup";

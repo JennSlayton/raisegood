@@ -1,4 +1,5 @@
 /* Main form wrapper */
+/* line 2, ../../sass/application/create-form.scss */
 .fs-form-wrap {
   position: relative;
   width: 100%;
@@ -6,48 +7,55 @@
   color: #fff;
 }
 
+/* line 9, ../../sass/application/create-form.scss */
 .overview .fs-form-wrap {
   height: auto;
 }
 
 /* Title */
-  .fs-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 40px;
-    width: 100%;
-  }
+/* line 14, ../../sass/application/create-form.scss */
+.fs-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 40px;
+  width: 100%;
+}
 
-    h1 {
-      margin: 0;
-    }
-
+/* line 23, ../../sass/application/create-form.scss */
+h1 {
+  margin: 0;
+}
 
 /* Form */
-  .fs-form {
-    position: relative;
-    text-align: left;
-    font-size: 2.5em;
-  }
-//CONFUSED WITH .NO-JS//
+/* line 29, ../../sass/application/create-form.scss */
+.fs-form {
+  position: relative;
+  text-align: left;
+  font-size: 2.5em;
+}
+
+/* line 35, ../../sass/application/create-form.scss */
 .no-js .fs-form {
   padding: 0 0 6em 0;
 }
 
 /* Views (fullscreen and overview)*/
-    .fs-form-full {
-      top: 32%;
-      margin: 0 auto;
-      width: 70%;
-    }
-//CONFUSED WITH .FS-MESSAGE-ERROR//
+/* line 40, ../../sass/application/create-form.scss */
+.fs-form-full {
+  top: 32%;
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* line 46, ../../sass/application/create-form.scss */
+.fs-form-full,
 .fs-message-error {
   max-width: 960px;
 }
 
-//DANG IT, THIS ONE TOO!//
+/* line 51, ../../sass/application/create-form.scss */
 .fs-form-overview {
   padding: 2.5em 30% 6em;
   width: 100%;
@@ -57,6 +65,7 @@
   font-size: 1.2em;
 }
 
+/* line 60, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields::before {
   display: block;
   margin-bottom: 2.5em;
@@ -67,37 +76,49 @@
 }
 
 /* Switch view animation (we hide the current view, switch the view class and show it again) */
+/* line 70, ../../sass/application/create-form.scss */
 .fs-form.fs-show {
   -webkit-animation: animFadeIn 0.5s;
   animation: animFadeIn 0.5s;
 }
 
 @-webkit-keyframes animFadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
 @keyframes animFadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
+/* line 85, ../../sass/application/create-form.scss */
 .fs-form.fs-show .fs-fields {
   -webkit-animation: animMove 0.5s;
   animation: animMove 0.5s;
 }
 
 @-webkit-keyframes animMove {
-  from { top: 100px; }
+  from {
+    top: 100px;
+  }
 }
-
 @keyframes animMove {
-  from { top: 100px; }
-} /* we need to use top here because otherwise all our fixed elements will become absolute */
-
+  from {
+    top: 100px;
+  }
+}
+/* we need to use top here because otherwise all our fixed elements will become absolute */
 /* Visibility control of elements */
+/* line 99, ../../sass/application/create-form.scss */
 .fs-form-full .fs-fields > li,
-.fs-nav-dots, 
+.fs-nav-dots,
 .fs-progress,
 .fs-numbers,
 button.fs-continue,
@@ -106,36 +127,43 @@ button.fs-continue,
   visibility: hidden;
 }
 
+/* line 109, ../../sass/application/create-form.scss */
 .no-js .fs-form-full .fs-fields > li {
   visibility: visible;
 }
 
+/* line 113, ../../sass/application/create-form.scss */
 .fs-show {
   visibility: visible !important;
 }
 
 /* Some gfseneral styles */
+/* line 118, ../../sass/application/create-form.scss */
 .fs-form-wrap button {
   border: none;
   background: none;
 }
 
+/* line 123, ../../sass/application/create-form.scss */
 .fs-form-wrap button[disabled] {
   opacity: 0.3;
   pointer-events: none;
 }
 
+/* line 128, ../../sass/application/create-form.scss */
 .fs-form-wrap input:focus,
 .fs-form-wrap button:focus {
   outline: none;
 }
 
 /* Hide the submit button */
+/* line 134, ../../sass/application/create-form.scss */
 .fs-form .fs-submit {
   display: none;
 }
 
 /* Fields */
+/* line 139, ../../sass/application/create-form.scss */
 .fs-fields {
   position: relative;
   margin: 0 auto;
@@ -144,10 +172,12 @@ button.fs-continue,
   list-style: none;
 }
 
+/* line 147, ../../sass/application/create-form.scss */
 .fs-form-overview ol {
-  max-width: ;
+  max-width: 100%;
 }
 
+/* line 151, ../../sass/application/create-form.scss */
 .fs-fields > li {
   position: relative;
   z-index: 1;
@@ -156,27 +186,32 @@ button.fs-continue,
   border: none;
 }
 
+/* line 159, ../../sass/application/create-form.scss */
 .fs-fields > li:hover {
   z-index: 999;
 }
 
+/* line 163, ../../sass/application/create-form.scss */
 .js .fs-form-full .fs-fields > li {
   position: absolute;
   width: 100%;
 }
 
+/* line 168, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields > li,
 .no-js .fs-form .fs-fields > li {
   margin: 1em 0 2em;
   padding: 0 0 2em 0;
-  border-bottom: 2px solid rgba(0,0,0,0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Labels & info */
+/* line 176, ../../sass/application/create-form.scss */
 .fs-fields > li label {
   position: relative;
 }
 
+/* line 180, ../../sass/application/create-form.scss */
 .fs-fields > li label.fs-field-label {
   display: inline-block;
   padding: 0 5px 1em 0;
@@ -184,14 +219,15 @@ button.fs-continue,
   pointer-events: none;
 }
 
+/* line 187, ../../sass/application/create-form.scss */
 .fs-form-full .fs-fields > li label[data-info]::after {
   position: relative;
   display: inline-block;
   margin-left: 10px;
   width: 24px;
   height: 24px;
-  border: 2px solid rgba(0,0,0,0.4);
-  color: rgba(0,0,0,0.4);
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4);
   border-radius: 50%;
   content: 'i';
   vertical-align: top;
@@ -205,29 +241,32 @@ button.fs-continue,
   pointer-events: auto;
 }
 
+/* line 208, ../../sass/application/create-form.scss */
 .fs-form-full .fs-fields > li label[data-info]::before {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    padding: 0 0 10px;
-    min-width: 200px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  padding: 0 0 10px;
+  min-width: 200px;
   content: attr(data-info);
   font-size: 0.4em;
   color: #6a7b7e;
-    opacity: 0;
-    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-    transition: opacity 0.3s, transform 0.3s;
-    -webkit-transform: translate3d(0,-5px,0);
-    transform: translate3d(0,-5px,0);
-    pointer-events: none;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  pointer-events: none;
 }
 
+/* line 225, ../../sass/application/create-form.scss */
 .fs-form-full .fs-fields > li label[data-info]:hover::before {
-    opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
+/* line 231, ../../sass/application/create-form.scss */
 .fs-form-full .fs-fields > li label:hover ~ .fs-info,
 .fs-form-full .fs-fields > li .fs-info:hover {
   opacity: 1;
@@ -237,13 +276,14 @@ button.fs-continue,
 }
 
 /* Inputs */
+/* line 240, ../../sass/application/create-form.scss */
 .fs-fields input {
   display: block;
   margin: 0;
   padding: 0 0 0.15em;
   width: 100%;
   border: none;
-  border-bottom: 2px solid rgba(0,0,0,0.2);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   background-color: transparent;
   color: #fff;
   text-overflow: ellipsis;
@@ -252,15 +292,19 @@ button.fs-continue,
   border-radius: 0;
 }
 
+/* line 255, ../../sass/application/create-form.scss */
 .fs-fields input:invalid {
-  box-shadow: none; /* removes red shadow in FF*/
+  box-shadow: none;
+  /* removes red shadow in FF*/
 }
 
+/* line 259, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields input {
   border-bottom-color: transparent;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
+/* line 264, ../../sass/application/create-form.scss */
 .fs-fields [required] {
   background-image: url(../img/abacusstar.svg);
   background-position: top right;
@@ -268,18 +312,24 @@ button.fs-continue,
   background-repeat: no-repeat;
 }
 
+/* line 271, ../../sass/application/create-form.scss */
 .fs-fields input:focus {
-  background-color: #8b8b8b; /* Fixes chrome bug with placeholder */
+  background-color: #8b8b8b;
+  /* Fixes chrome bug with placeholder */
 }
 
+/* line 275, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields input:focus {
-  background-color: #fff; /* Fixes chrome bug with placeholder */
+  background-color: #fff;
+  /* Fixes chrome bug with placeholder */
 }
 
+/* line 279, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields input {
   font-size: 1.2em;
 }
 
+/* line 283, ../../sass/application/create-form.scss */
 .fs-fields input[type="radio"] {
   position: absolute;
   display: block;
@@ -291,6 +341,7 @@ button.fs-continue,
   cursor: pointer;
 }
 
+/* line 294, ../../sass/application/create-form.scss */
 .fs-fields > li .fs-radio-group span {
   float: left;
   position: relative;
@@ -304,20 +355,24 @@ button.fs-continue,
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* line 307, ../../sass/application/create-form.scss */
 .fs-fields > li .fs-radio-group span label {
-  color: rgba(0,0,0,0.4);
+  color: rgba(0, 0, 0, 0.4);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 
+/* line 313, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields > li .fs-radio-group span {
   max-width: 140px;
 }
 
+/* line 317, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields > li .fs-radio-group span {
   font-size: 75%;
 }
 
+/* line 321, ../../sass/application/create-form.scss */
 .fs-fields > li .fs-radio-group label {
   display: block;
   padding-top: 1em;
@@ -326,6 +381,7 @@ button.fs-continue,
   cursor: pointer;
 }
 
+/* line 329, ../../sass/application/create-form.scss */
 .fs-fields .fs-radio-group label::after {
   position: absolute;
   top: 50%;
@@ -339,41 +395,48 @@ button.fs-continue,
   opacity: 0.5;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
+/* line 346, ../../sass/application/create-form.scss */
 .fs-fields .fs-radio-group label.radio-mobile::after {
   background-image: url(../img/mobile.svg);
 }
 
+/* line 350, ../../sass/application/create-form.scss */
 .fs-fields .fs-radio-group label.radio-social::after {
   background-image: url(../img/social.svg);
 }
 
+/* line 354, ../../sass/application/create-form.scss */
 .fs-fields .fs-radio-group label.radio-conversion::after {
   background-image: url(../img/conversion.svg);
 }
 
+/* line 358, ../../sass/application/create-form.scss */
 .fs-fields .fs-radio-group label:hover::after,
 .fs-fields input[type="radio"]:focus + label::after,
 .fs-fields input[type="radio"]:checked + label::after {
   opacity: 1;
 }
 
+/* line 364, ../../sass/application/create-form.scss */
 .fs-fields input[type="radio"]:checked + label {
   color: #fff;
 }
 
+/* line 368, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields input[type="radio"]:checked + label {
-  color: rgba(0,0,0,0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
+/* line 372, ../../sass/application/create-form.scss */
 .fs-fields textarea {
   padding: 0.25em;
   width: 100%;
   height: 200px;
-  border: 2px solid rgba(0,0,0,0.2);
+  border: 2px solid rgba(0, 0, 0, 0.2);
   background-color: transparent;
   color: #fff;
   font-weight: 700;
@@ -381,28 +444,34 @@ button.fs-continue,
   resize: none;
 }
 
+/* line 384, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields textarea {
   height: 100px;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
+/* line 389, ../../sass/application/create-form.scss */
 .fs-fields textarea:focus {
   outline: none;
 }
 
+/* line 393, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields textarea {
   padding: 0;
   border-color: transparent;
 }
 
+/* line 398, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-fields textarea:focus {
   background: #fff;
 }
 
+/* line 402, ../../sass/application/create-form.scss */
 .fs-form div.cs-select.cs-skin-boxes {
   display: block;
 }
 
+/* line 406, ../../sass/application/create-form.scss */
 .fs-form-overview .cs-skin-boxes > span {
   border-radius: 5px;
   width: 90px;
@@ -410,11 +479,13 @@ button.fs-continue,
   font-size: 0.8em;
 }
 
+/* line 413, ../../sass/application/create-form.scss */
 .fs-form-overview .cs-skin-boxes > span::before {
   padding-top: 50px;
   box-shadow: 0 20px 0 #292c30, inset 0 -5px #292c30;
 }
 
+/* line 418, ../../sass/application/create-form.scss */
 .fs-fields input.fs-mark {
   padding-left: 1em;
   background-image: url(../img/dollar.svg);
@@ -423,6 +494,7 @@ button.fs-continue,
   background-repeat: no-repeat;
 }
 
+/* line 426, ../../sass/application/create-form.scss */
 .fs-fields input.fs-mark[required] {
   background-image: url(../img/dollar.svg), url(../img/abacusstar.svg);
   background-position: 0% 0.15em, top right;
@@ -431,32 +503,38 @@ button.fs-continue,
 }
 
 /* placeholder */
+/* line 434, ../../sass/application/create-form.scss */
 .fs-fields input::-webkit-input-placeholder,
 .fs-fields textarea::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
+/* line 439, ../../sass/application/create-form.scss */
 .fs-fields input:-moz-placeholder,
 .fs-fields textarea:-moz-placeholder {
-  color: rgba(0,0,0,0.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
+/* line 444, ../../sass/application/create-form.scss */
 .fs-fields input::-moz-placeholder,
 .fs-fields textarea::-moz-placeholder {
-  color: rgba(0,0,0,0.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
+/* line 449, ../../sass/application/create-form.scss */
 .fs-fields input:-ms-input-placeholder,
 .fs-fields textarea:-ms-input-placeholder {
-  color: rgba(0,0,0,0.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
 /* Hide placeholder when focused in Webkit browsers */
+/* line 455, ../../sass/application/create-form.scss */
 .fs-fields input:focus::-webkit-input-placeholder {
   color: transparent;
 }
 
 /* Dot navigation */
+/* line 460, ../../sass/application/create-form.scss */
 .fs-nav-dots {
   position: absolute;
   top: 50%;
@@ -466,6 +544,7 @@ button.fs-continue,
   transform: translateY(-50%);
 }
 
+/* line 469, ../../sass/application/create-form.scss */
 .fs-nav-dots button {
   position: relative;
   display: block;
@@ -479,6 +558,7 @@ button.fs-continue,
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+/* line 482, ../../sass/application/create-form.scss */
 .fs-nav-dots button::before,
 .fs-nav-dots button::after {
   position: absolute;
@@ -487,31 +567,34 @@ button.fs-continue,
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   content: '';
   text-indent: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
+/* line 497, ../../sass/application/create-form.scss */
 .fs-nav-dots button::after {
   background-color: #fff;
-  -webkit-transform: perspective(1000px) rotate3d(0,1,0,180deg);
-  transform: perspective(1000px) rotate3d(0,1,0,180deg);
+  -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
+  transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
 }
 
+/* line 503, ../../sass/application/create-form.scss */
 .fs-nav-dots button.fs-dot-current {
-  -webkit-transform: perspective(1000px) rotate3d(0,1,0,180deg);
-  transform: perspective(1000px) rotate3d(0,1,0,180deg);
+  -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
+  transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
 }
 
+/* line 508, ../../sass/application/create-form.scss */
 .fs-nav-dots button:hover::before,
 .fs-nav-dots button.fs-dot-current::before {
   background: #fff;
-
 }
 
 /* Progress bar */
+/* line 515, ../../sass/application/create-form.scss */
 .fs-progress {
   position: absolute;
   top: 0;
@@ -523,12 +606,13 @@ button.fs-continue,
 }
 
 /* Number indicator */
+/* line 526, ../../sass/application/create-form.scss */
 .fs-numbers {
   position: absolute;
   top: 0;
   right: 0;
   overflow: hidden;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0, 0, 0, 0.4);
   margin: 40px;
   width: 2em;
   font-weight: 700;
@@ -537,6 +621,7 @@ button.fs-continue,
   cursor: default;
 }
 
+/* line 540, ../../sass/application/create-form.scss */
 .fs-numbers:after {
   position: absolute;
   width: 100%;
@@ -547,16 +632,19 @@ button.fs-continue,
   left: 0;
 }
 
+/* line 550, ../../sass/application/create-form.scss */
 .fs-numbers span {
   float: right;
   width: 40%;
   text-align: center;
 }
 
+/* line 556, ../../sass/application/create-form.scss */
 .fs-numbers .fs-number-current {
   float: left;
 }
 
+/* line 560, ../../sass/application/create-form.scss */
 .fs-numbers .fs-number-new {
   position: absolute;
   left: 0;
@@ -566,84 +654,114 @@ button.fs-continue,
 
 /* Animations for numbers */
 /* Show next number */
+/* line 569, ../../sass/application/create-form.scss */
 .fs-numbers.fs-show-next .fs-number-new {
   -webkit-animation: animMoveUpFromDown 0.4s both;
   animation: animMoveUpFromDown 0.4s both;
 }
 
 @-webkit-keyframes animMoveUpFromDown {
-  from { -webkit-transform: translateY(100%); }
-  to { -webkit-transform: translateY(0); }
+  from {
+    -webkit-transform: translateY(100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+  }
 }
-
 @keyframes animMoveUpFromDown {
-  from { -webkit-transform: translateY(100%); transform: translateY(100%); }
-  to { -webkit-transform: translateY(0); transform: translateY(0); }
+  from {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
-
+/* line 584, ../../sass/application/create-form.scss */
 .fs-numbers.fs-show-next .fs-number-current {
   -webkit-animation: animMoveUp 0.4s both;
   animation: animMoveUp 0.4s both;
 }
 
 @-webkit-keyframes animMoveUp {
-  to { -webkit-transform: translateY(-100%); }
+  to {
+    -webkit-transform: translateY(-100%);
+  }
 }
-
 @keyframes animMoveUp {
-  to { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
+  to {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
 }
-
 /* Show previous number */
+/* line 598, ../../sass/application/create-form.scss */
 .fs-numbers.fs-show-prev .fs-number-new {
   -webkit-animation: animMoveDownFromUp 0.4s both;
   animation: animMoveDownFromUp 0.4s both;
 }
 
 @-webkit-keyframes animMoveDownFromUp {
-  from { -webkit-transform: translateY(-100%); }
-  to { -webkit-transform: translateY(0); }
+  from {
+    -webkit-transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+  }
 }
-
 @keyframes animMoveDownFromUp {
-  from { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
-  to { -webkit-transform: translateY(0); transform: translateY(0); }
+  from {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
-
+/* line 613, ../../sass/application/create-form.scss */
 .fs-numbers.fs-show-prev .fs-number-current {
   -webkit-animation: animMoveDown 0.4s both;
   animation: animMoveDown 0.4s both;
 }
 
 @-webkit-keyframes animMoveDown {
-  to { -webkit-transform: translateY(100%); }
+  to {
+    -webkit-transform: translateY(100%);
+  }
 }
-
 @keyframes animMoveDown {
-  to { -webkit-transform: translateY(100%); transform: translateY(100%); }
+  to {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
 }
-
 /* Continue button and submit button */
+/* line 627, ../../sass/application/create-form.scss */
 button.fs-submit,
 button.fs-continue {
   padding: 0.6em 1.5em;
-  border: 1px solid rgba(0,0,0,0.4);
+  border: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 40px;
   font-weight: 700;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0, 0, 0, 0.4);
 }
 
+/* line 636, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-submit,
-.no-js .fs-form .fs-submit  {
+.no-js .fs-form .fs-submit {
   display: block;
   float: right;
 }
 
+/* line 642, ../../sass/application/create-form.scss */
 .fs-form-overview .fs-submit {
   border-color: #8b8b8b;
   color: #8b8b8b;
 }
 
+/* line 647, ../../sass/application/create-form.scss */
 button.fs-continue {
   position: absolute;
   right: 0;
@@ -652,6 +770,7 @@ button.fs-continue {
   font-size: 1.25em;
 }
 
+/* line 655, ../../sass/application/create-form.scss */
 button.fs-submit:hover,
 button.fs-submit:focus,
 button.fs-continue:hover {
@@ -659,6 +778,7 @@ button.fs-continue:hover {
   color: #fff;
 }
 
+/* line 662, ../../sass/application/create-form.scss */
 .fs-continue::after {
   position: absolute;
   top: 100%;
@@ -667,13 +787,14 @@ button.fs-continue:hover {
   line-height: 3;
   text-align: center;
   background: transparent;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
   content: 'or press ENTER';
   font-size: 0.65em;
   pointer-events: none;
 }
 
 /* Error message */
+/* line 677, ../../sass/application/create-form.scss */
 .fs-message-error {
   position: absolute;
   bottom: 75%;
@@ -685,131 +806,168 @@ button.fs-continue:hover {
   font-weight: 700;
   font-size: 1em;
   opacity: 0;
-  -webkit-transform: translate3d(-50%,-5px,0);
-  transform: translate3d(-50%,-5px,0);
+  -webkit-transform: translate3d(-50%, -5px, 0);
+  transform: translate3d(-50%, -5px, 0);
 }
 
+/* line 692, ../../sass/application/create-form.scss */
 .fs-message-error.fs-show {
   opacity: 1;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
-  -webkit-transform: translate3d(-50%,0,0);
-  transform: translate3d(-50%,0,0);
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
 }
 
 /* Animation classes & animations */
+/* line 701, ../../sass/application/create-form.scss */
 .fs-form li.fs-current {
   visibility: visible;
 }
 
+/* line 705, ../../sass/application/create-form.scss */
 .fs-form li.fs-hide,
 .fs-form li.fs-show {
   pointer-events: none;
 }
 
 /* Hide current li when navigating to next question */
+/* line 711, ../../sass/application/create-form.scss */
 .fs-form .fs-display-next .fs-hide {
   visibility: visible;
 }
 
+/* line 715, ../../sass/application/create-form.scss */
 .fs-form .fs-display-next .fs-hide .fs-anim-lower,
 .fs-form .fs-display-next .fs-hide .fs-anim-upper {
-  -webkit-animation: animHideNext 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
-  animation: animHideNext 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
+  -webkit-animation: animHideNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  animation: animHideNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
 }
 
+/* line 721, ../../sass/application/create-form.scss */
 .fs-form .fs-display-next .fs-hide .fs-anim-lower {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
 @-webkit-keyframes animHideNext {
-  to { opacity: 0; -webkit-transform: translate3d(0,-500px,0); }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -500px, 0);
+  }
 }
-
 @keyframes animHideNext {
-  to { opacity: 0; -webkit-transform: translate3d(0,-500px,0); transform: translate3d(0,-500px,0); }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -500px, 0);
+    transform: translate3d(0, -500px, 0);
+  }
 }
-
 /* Show new li when navigating to next question */
+/* line 735, ../../sass/application/create-form.scss */
 .fs-form .fs-display-next .fs-show .fs-anim-lower,
 .fs-form .fs-display-next .fs-show .fs-anim-upper {
-  -webkit-animation: animShowNext 0.5s cubic-bezier(0.7,0,0.3,1) both 0.15s;
-  animation: animShowNext 0.5s cubic-bezier(0.7,0,0.3,1) both 0.15s;
+  -webkit-animation: animShowNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.15s;
+  animation: animShowNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.15s;
 }
 
+/* line 741, ../../sass/application/create-form.scss */
 .fs-form .fs-display-next .fs-show .fs-anim-lower {
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
 }
 
 @-webkit-keyframes animShowNext {
-  from { opacity: 0; -webkit-transform: translate3d(0,500px,0); }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 500px, 0);
+  }
 }
-
 @keyframes animShowNext {
-  from { opacity: 0; -webkit-transform: translate3d(0,500px,0); transform: translate3d(0,500px,0); }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 500px, 0);
+    transform: translate3d(0, 500px, 0);
+  }
 }
-
 /* Hide current li when navigating to previous question */
+/* line 755, ../../sass/application/create-form.scss */
 .fs-form .fs-display-prev .fs-hide {
   visibility: visible;
 }
 
+/* line 759, ../../sass/application/create-form.scss */
 .fs-form .fs-display-prev .fs-hide .fs-anim-lower,
 .fs-form .fs-display-prev .fs-hide .fs-anim-upper {
-  -webkit-animation: animHidePrev 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
-  animation: animHidePrev 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
+  -webkit-animation: animHidePrev 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  animation: animHidePrev 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
 }
 
+/* line 765, ../../sass/application/create-form.scss */
 .fs-form .fs-display-prev .fs-hide .fs-anim-upper {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
 @-webkit-keyframes animHidePrev {
-  to { opacity: 0; -webkit-transform: translate3d(0,500px,0); }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 500px, 0);
+  }
 }
-
 @keyframes animHidePrev {
-  to { opacity: 0; -webkit-transform: translate3d(0,500px,0); transform: translate3d(0,500px,0); }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 500px, 0);
+    transform: translate3d(0, 500px, 0);
+  }
 }
-
 /* Show new li when navigating to previous question */
+/* line 779, ../../sass/application/create-form.scss */
 .fs-form .fs-display-prev .fs-show .fs-anim-lower,
 .fs-form .fs-display-prev .fs-show .fs-anim-upper {
-  -webkit-animation: animShowPrev 0.5s cubic-bezier(0.7,0,0.3,1) both 0.15s;
-  animation: animShowPrev 0.5s cubic-bezier(0.7,0,0.3,1) both 0.15s;
+  -webkit-animation: animShowPrev 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.15s;
+  animation: animShowPrev 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.15s;
 }
 
+/* line 785, ../../sass/application/create-form.scss */
 .fs-form .fs-display-prev .fs-show .fs-anim-upper {
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
 }
 
 @-webkit-keyframes animShowPrev {
-  from { opacity: 0; -webkit-transform: translate3d(0,-500px,0); }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -500px, 0);
+  }
 }
-
 @keyframes animShowPrev {
-  from { opacity: 0; -webkit-transform: translate3d(0,-500px,0); transform: translate3d(0,-500px,0); }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -500px, 0);
+    transform: translate3d(0, -500px, 0);
+  }
 }
-
 /* Remove IE clear cross */
+/* line 799, ../../sass/application/create-form.scss */
 input[type=text]::-ms-clear {
-    display: none;
+  display: none;
 }
 
 /* Adjust form for smaller screens */
 @media screen and (max-width: 52.5em) {
+  /* line 805, ../../sass/application/create-form.scss */
   body {
     min-height: 500px;
   }
 
+  /* line 809, ../../sass/application/create-form.scss */
   .fs-form-wrap {
     font-size: 70%;
   }
 
+  /* line 813, ../../sass/application/create-form.scss */
   .fs-form {
     top: 6em;
     right: 2em;
@@ -819,6 +977,7 @@ input[type=text]::-ms-clear {
     font-size: 2em;
   }
 
+  /* line 822, ../../sass/application/create-form.scss */
   .fs-form.fs-form-overview {
     top: 0;
     right: 0;
@@ -826,18 +985,22 @@ input[type=text]::-ms-clear {
     font-size: 1.5em;
   }
 
+  /* line 829, ../../sass/application/create-form.scss */
   .fs-title {
     padding: 20px;
   }
 
+  /* line 833, ../../sass/application/create-form.scss */
   .fs-numbers {
     margin: 20px;
   }
 
+  /* line 837, ../../sass/application/create-form.scss */
   .fs-nav-dots {
     right: 25px;
   }
 
+  /* line 841, ../../sass/application/create-form.scss */
   button.fs-continue {
     right: 20px;
     bottom: 20px;
@@ -849,6 +1012,7 @@ input[type=text]::-ms-clear {
     font-size: 2em;
   }
 
+  /* line 852, ../../sass/application/create-form.scss */
   button.fs-continue::before {
     position: absolute;
     top: 0;
@@ -861,27 +1025,31 @@ input[type=text]::-ms-clear {
     line-height: 50px;
   }
 
+  /* line 864, ../../sass/application/create-form.scss */
   .fs-continue::after {
     content: '';
   }
 
+  /* line 868, ../../sass/application/create-form.scss */
   button.fs-submit {
     width: 100%;
     font-size: 1.25em;
   }
 
+  /* line 873, ../../sass/application/create-form.scss */
   .fs-message-error {
     bottom: 1.75em;
     left: 0;
     padding: 0 90px 0 2em;
     width: 100%;
     font-size: 1.5em;
-    -webkit-transform: translate3d(0,-5px,0);
-    transform: translate3d(0,-5px,0);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
   }
 
+  /* line 883, ../../sass/application/create-form.scss */
   .fs-message-error.fs-show {
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
