@@ -14,12 +14,12 @@
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
-html, body, .container {
+html, body, .awesomeform {
 	height: 100%;
 }
 
-body {
-	background: #3b3f45;
+body.awesomeform {
+	background: #548699;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1em;
