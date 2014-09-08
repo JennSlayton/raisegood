@@ -1379,42 +1379,6 @@ a {
   padding: 0.5em 1.5em;
 }
 
-/* line 3, ../sass/global/_showpage.scss */
-.show-page .main-nav-header {
-  padding-top: 0 !important;
-}
-/* line 8, ../sass/global/_showpage.scss */
-.show-page .dropdown .account {
-  color: #548699;
-  font-size: 13px;
-  font-weight: 600;
-  margin-top: 1.5em;
-}
-/* line 20, ../sass/global/_showpage.scss */
-.show-page .showpage-image img {
-  float: right;
-}
-/* line 25, ../sass/global/_showpage.scss */
-.show-page .about-fundraiser {
-  float: left;
-}
-/* line 28, ../sass/global/_showpage.scss */
-.show-page .about-fundraiser h3 {
-  color: #548699;
-}
-/* line 34, ../sass/global/_showpage.scss */
-.show-page .stats-fundraiser {
-  float: right;
-}
-/* line 36, ../sass/global/_showpage.scss */
-.show-page .stats-fundraiser h3, .show-page .stats-fundraiser h4 {
-  color: #548699;
-}
-/* line 42, ../sass/global/_showpage.scss */
-.show-page .supporters h3 {
-  color: #548699;
-}
-
 /* line 5, ../sass/marketing/_homepage.scss */
 .raise-good-homepage .main-nav-header .right-nav {
   margin-bottom: 0;
@@ -1696,4 +1660,113 @@ a {
 .signup-page .signup-main-image .sign-up .information a {
   margin: 1em 0 1em 0;
   text-align: center;
+}
+
+/* line 3, ../sass/application/_showpage.scss */
+.show-page .main-nav-header {
+  padding-top: 0 !important;
+}
+/* line 7, ../sass/application/_showpage.scss */
+.show-page .dropdown {
+  margin-top: 1.5em;
+}
+/* line 10, ../sass/application/_showpage.scss */
+.show-page .dropdown .account {
+  color: #548699;
+  font-size: 13px;
+  font-weight: 600;
+}
+/* line 21, ../sass/application/_showpage.scss */
+.show-page .showpage-image img {
+  float: right;
+}
+/* line 26, ../sass/application/_showpage.scss */
+.show-page .about-fundraiser {
+  float: left;
+}
+/* line 29, ../sass/application/_showpage.scss */
+.show-page .about-fundraiser h3 {
+  color: #548699;
+}
+/* line 35, ../sass/application/_showpage.scss */
+.show-page .stats-fundraiser {
+  float: right;
+}
+/* line 37, ../sass/application/_showpage.scss */
+.show-page .stats-fundraiser h3, .show-page .stats-fundraiser h4 {
+  color: #548699;
+}
+/* line 43, ../sass/application/_showpage.scss */
+.show-page .supporters h3 {
+  color: #548699;
+}
+
+/* line 3, ../sass/application/_following.scss */
+.following-page .main-nav-header {
+  padding-top: 0 !important;
+}
+/* line 7, ../sass/application/_following.scss */
+.following-page .dropdown {
+  margin-top: 1.5em;
+}
+/* line 10, ../sass/application/_following.scss */
+.following-page .dropdown .account {
+  color: #548699;
+  font-size: 13px;
+  font-weight: 600;
+}
+/* line 21, ../sass/application/_following.scss */
+.following-page .user-image img {
+  float: right;
+  margin-bottom: 2em;
+}
+/* line 29, ../sass/application/_following.scss */
+.following-page .following-fundraisers h5 {
+  color: #0A96CC;
+}
+/* line 32, ../sass/application/_following.scss */
+.following-page .following-fundraisers a {
+  color: #548699;
+}
+/* line 36, ../sass/application/_following.scss */
+.following-page .following-fundraisers .divider {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+/* line 43, ../sass/application/_following.scss */
+.following-page .following-fundraisers .second-fundraiser img {
+  padding-top: 1em;
+}
+
+/* line 3, ../sass/application/_frmanage.scss */
+.frmanage-page .main-nav-header {
+  padding-top: 0 !important;
+}
+/* line 7, ../sass/application/_frmanage.scss */
+.frmanage-page .dropdown {
+  margin-top: 1.5em;
+}
+/* line 10, ../sass/application/_frmanage.scss */
+.frmanage-page .dropdown .account {
+  color: #548699;
+  font-size: 13px;
+  font-weight: 600;
+}
+/* line 21, ../sass/application/_frmanage.scss */
+.frmanage-page .user-image img {
+  float: right;
+  margin-bottom: 2em;
+}
+/* line 29, ../sass/application/_frmanage.scss */
+.frmanage-page .managing-fundraisers h5 {
+  color: #0A96CC;
+}
+/* line 32, ../sass/application/_frmanage.scss */
+.frmanage-page .managing-fundraisers a {
+  color: #548699;
+}
+/* line 36, ../sass/application/_frmanage.scss */
+.frmanage-page .managing-fundraisers .divider {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
 }

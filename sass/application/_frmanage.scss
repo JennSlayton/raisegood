@@ -1,46 +1,46 @@
-.show-page {
+.frmanage-page {
 
 	.main-nav-header {
 		padding-top: 0 !important;
 	}
 
 		.dropdown {
+			margin-top: 1.5em;
+			
 			.account{
 				color: $base-blue;
 				font-size: 13px;
 				font-weight: 600;
-				margin-top: 1.5em;
 
 			}
 
 
 		}
 
-	.showpage-image {
+	.user-image {
 		img{
 			float: right;
+			margin-bottom: 2em;
 		}
 	}
 
-	.about-fundraiser {
-		float: left;
+	.managing-fundraisers {
 
-		h3 {
-			color: $base-blue;
-
+		h5 {
+			color: $light-blue;
 		}
-	}
-
-	.stats-fundraiser {
-		float: right;
-		h3, h4 {
+		a {
 			color: $base-blue;
 		}
+
+		.divider {
+			padding-top: 0.5em;
+			padding-bottom: 1em;
+
+		}
+
 	}
 
-	.supporters {
-		h3 {
-			color: $base-blue;
-		}
-	}
+	
+	
 }

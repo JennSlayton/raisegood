@@ -11,7 +11,7 @@
 @import "global/base";
 @import "global/navbar";
 @import "global/navfooter";
-@import "global/showpage";
+
 
 //MARKETING STYLES
 @import "marketing/homepage";
@@ -19,3 +19,6 @@
 
 //APPLICATION STYLES
 @import "application/signup";
+@import "application/showpage";
+@import "application/following";
+@import "application/frmanage";

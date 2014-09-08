@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Profile | Raise Good</title>
+
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,600' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>;
+    <script type="text/javascript" >
+    $(document).ready(function()
+    {
+
+    $(".account").click(function()
+    {
+    var X=$(this).attr('id');
+    if(X==1)
+    {
+    $(".submenu").hide();
+    $(this).attr('id', '0'); 
+    }
+    else
+    {
+    $(".submenu").show();
+    $(this).attr('id', '1');
+    }
+
+    });
+
+    //Mouse click on sub menu
+    $(".submenu").mouseup(function()
+    {
+    return false
+    });
+
+    //Mouse click on my account link
+    $(".account").mouseup(function()
+    {
+    return false
+    });
+
+
+    //Document Click
+    $(document).mouseup(function()
+    {
+    $(".submenu").hide();
+    $(".account").attr('id', '');
+    });
+    });
+    </script>
+    
+  </head>
+
+  <body class="following-page">
+    <header class="main-nav-header">
+      <nav class="container">
+        <ul class="left-nav">
+          <li>
+            <a href="#" class="logo"> <img src="images/logo.png"> </a></li>
+          <li><a href="#" class="nav-link">Browse</a></li>
+          <li><a href="createfundraiserform.html" class="nav-link">Create</a></li>
+          <li><a href="#" class="nav-link">Donate</a></li>
+        </ul>
+
+        <ul class="right-nav">
+          <div class="dropdown">
+            <a class="account" >Welcome, user!</a>
+            <div class="submenu">
+              <ul class="root">
+                <li ><a href="following.html" >Following</a></li>
+                <li ><a href="frmanage.html" >Fundraisers</a></li>
+                <li ><a href="donation.html">Donations</a></li>
+                <li><a href="editprofile.html">Edit Profile</a></li>
+                <li><a href="index.html">Log Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </header> 
+    <div class="user-image">
+        <img src="images/userprofilecover.png">
+    </div>
+
+    <div class="edit-profile container">
+        <div class="one-third column">
+            <label for="regularInput">First Name</label>
+            <input type="text" id="regularInput" />
+            <label for="regularInput">City</label>
+            <input type="text" id="regularInput" />
+            <label for="regularInput">Email Address</label>
+            <input type="email" id="regularInput" />
+        </div>
+        <div class="one-third column">
+            <label for="regularInput">Last Name</label>
+            <input type="text" id="regularInput" />
+             <!-- Label and select list -->
+            <label for="selectList">Select List</label>
+            <select id="selectList">
+            <option value="Option 1">Alabama</option>
+            <option value="Option 2">Alaska</option>
+            <option value="Option 3">Arizona</option>
+            <option value="Option 4">Arkansas</option>
+            <option value="Option 5">California</option>
+            <option value="Option 6">Colorado</option>
+            <option value="Option 7">Connecticut</option>
+            <option value="Option 8">Delaware</option>
+            <option value="Option 9">Florida</option>
+            <option value="Option 10">Georgia</option>
+            <option value="Option 11">Hawaii</option>
+            <option value="Option 12">Idaho</option>
+            <option value="Option 13">Illinois</option>
+            <option value="Option 14">Indiana</option>
+            <option value="Option 15">Iowa</option>
+            <option value="Option 16">Kansas</option>
+            <option value="Option 17">Kentucky</option>
+            <option value="Option 18">Louisiana</option>
+            <option value="Option 19">Maine</option>
+            <option value="Option 20">Maryland</option>
+            <option value="Option 21">Massachusetts</option>
+            <option value="Option 22">Michigan</option>
+            <option value="Option 23">Minnesota</option>
+            <option value="Option 24">Mississippi</option>
+            <option value="Option 25">Missouri</option>
+            <option value="Option 26">Montana</option>
+            <option value="Option 27">Nebraska</option>
+            <option value="Option 28">Nevada</option>
+            <option value="Option 29">New Hampshire</option>
+            <option value="Option 30">New Jersey</option>
+            <option value="Option 31">New Mexico</option>
+            <option value="Option 32">New York</option>
+            <option value="Option 33">North Carolina</option>
+            <option value="Option 34">North Dakota</option>
+            <option value="Option 35">Ohio</option>
+            <option value="Option 36">Oklahoma</option>
+            <option value="Option 37">Oregon</option>
+            <option value="Option 38">Pennsylvania</option>
+            <option value="Option 39">Rhode Island</option>
+            <option value="Option 40">South Carolina</option>
+            <option value="Option 41">South Dakota</option>
+            <option value="Option 42">Tennessee</option>
+            <option value="Option 43">Texas</option>
+            <option value="Option 44">Utah</option>
+            <option value="Option 45">Vermont</option>
+            <option value="Option 46">Virginia</option>
+            <option value="Option 47">Washington</option>
+            <option value="Option 48">West Virginia</option>
+            <option value="Option 49">Wisconsin</option>
+            <option value="Option 50">Wyoming</option>
+            </select>
+            <label for="regularInput">Website</label>
+            <input type="text" id="regularInput" />
+        </div>
+        <div class="one-third column">
+            <label for="regularInput">Upload Photo</label>
+            <input type="text" id="regularInput" />
+            <a href="#" class="button button-blue button-small">Upload</a>
+            <!-- Label and textarea -->
+            <label for="regularTextarea">About Yourself</label>
+            <textarea id="regularTextarea"></textarea>
+             <a href="#" class="button button-blue button-small button-right">Update</a>
+        </div>
+
+
+    </div>
+
+
+    <div class="nav-footer">
+      <div class="divider"></div>
+        <div class="row">
+          <ul class="footer-nav">
+            <li><a href="#" class="nav-link">Browse</a></li>
+            <li><a href="createfundraiserform.html" class="nav-link">Create</a></li>
+            <li><a href="#" class="nav-link">Donate</a>
+            </li>
+          </ul>
+        </div>
+    </div> 
+
+  </body>
+
+
+
