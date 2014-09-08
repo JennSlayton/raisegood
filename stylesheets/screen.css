@@ -1379,6 +1379,42 @@ a {
   padding: 0.5em 1.5em;
 }
 
+/* line 3, ../sass/global/_showpage.scss */
+.show-page .main-nav-header {
+  padding-top: 0 !important;
+}
+/* line 8, ../sass/global/_showpage.scss */
+.show-page .dropdown .account {
+  color: #548699;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 1.5em;
+}
+/* line 20, ../sass/global/_showpage.scss */
+.show-page .showpage-image img {
+  float: right;
+}
+/* line 25, ../sass/global/_showpage.scss */
+.show-page .about-fundraiser {
+  float: left;
+}
+/* line 28, ../sass/global/_showpage.scss */
+.show-page .about-fundraiser h3 {
+  color: #548699;
+}
+/* line 34, ../sass/global/_showpage.scss */
+.show-page .stats-fundraiser {
+  float: right;
+}
+/* line 36, ../sass/global/_showpage.scss */
+.show-page .stats-fundraiser h3, .show-page .stats-fundraiser h4 {
+  color: #548699;
+}
+/* line 42, ../sass/global/_showpage.scss */
+.show-page .supporters h3 {
+  color: #548699;
+}
+
 /* line 5, ../sass/marketing/_homepage.scss */
 .raise-good-homepage .main-nav-header .right-nav {
   margin-bottom: 0;
@@ -1612,10 +1648,15 @@ a {
 }
 
 /* line 11, ../sass/application/_signup.scss */
-.signup-page ul .right-nav {
+.signup-page .main-nav-header .right-nav {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+/* line 15, ../sass/application/_signup.scss */
+.signup-page .main-nav-header a {
   margin-top: 2em;
 }
-/* line 20, ../sass/application/_signup.scss */
+/* line 24, ../sass/application/_signup.scss */
 .signup-page .signup-main-image {
   background: url(../images/raisegoodcover.png) no-repeat top center;
   background-size: cover;
@@ -1624,34 +1665,34 @@ a {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 28, ../sass/application/_signup.scss */
+/* line 32, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up {
   position: center;
   padding-top: 5em;
 }
-/* line 32, ../sass/application/_signup.scss */
+/* line 36, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background {
   margin-bottom: 0;
 }
-/* line 36, ../sass/application/_signup.scss */
+/* line 40, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .information {
   background-color: #c83c59;
   color: #FFFFFF;
   padding: 0.5em 0.5em;
   border-radius: 5px;
 }
-/* line 43, ../sass/application/_signup.scss */
+/* line 47, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .information h3 {
   text-align: center;
   color: #FFFFFF;
   padding: 0.25em 0 0.25em 0;
 }
-/* line 48, ../sass/application/_signup.scss */
+/* line 52, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .information input {
   border-radius: 5px;
   width: 100%;
 }
-/* line 52, ../sass/application/_signup.scss */
+/* line 56, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .information a {
   margin: 1em 0 1em 0;
   text-align: center;

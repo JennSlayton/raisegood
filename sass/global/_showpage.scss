@@ -1,0 +1,46 @@
+.show-page {
+
+	.main-nav-header {
+		padding-top: 0 !important;
+	}
+
+		.dropdown {
+			.account{
+				color: $base-blue;
+				font-size: 13px;
+				font-weight: 600;
+				margin-top: 1.5em;
+
+			}
+
+
+		}
+
+	.showpage-image {
+		img{
+			float: right;
+		}
+	}
+
+	.about-fundraiser {
+		float: left;
+
+		h3 {
+			color: $base-blue;
+
+		}
+	}
+
+	.stats-fundraiser {
+		float: right;
+		h3, h4 {
+			color: $base-blue;
+		}
+	}
+
+	.supporters {
+		h3 {
+			color: $base-blue;
+		}
+	}
+}

@@ -6,15 +6,19 @@ body {
 a {text-decoration: none;}
 
 .signup-page {
-
-  ul {
+    
+  .main-nav-header {
     .right-nav {
       margin-top: 2em;
+      margin-bottom: 0;
     }
-  }
+      a {
+        margin-top: 2em
+      }
     
-  
-  
+
+  }  
+
 
 
   .signup-main-image {
