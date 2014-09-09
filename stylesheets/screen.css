@@ -1977,33 +1977,72 @@ a {
 /* line 17, ../sass/application/_browse.scss */
 .wrap {
   width: 100%;
-  margin: 0 auto;
 }
-/* line 22, ../sass/application/_browse.scss */
+/* line 20, ../sass/application/_browse.scss */
+.wrap h4 {
+  background-color: rgba(204, 10, 50, 0.7);
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+/* line 30, ../sass/application/_browse.scss */
 .wrap .browse-header {
-  font-size: 22px;
   text-align: left;
-  margin-left: 30px;
+  color: #548699;
+  margin-left: 0;
+}
+/* line 38, ../sass/application/_browse.scss */
+.wrap .browse-header .container .one-third .column {
+  width: 150px !important;
+  margin-left: 0;
+}
+/* line 46, ../sass/application/_browse.scss */
+.wrap .browse-header h5 {
+  color: #CC0A32;
+  padding-bottom: 1em;
+}
+/* line 55, ../sass/application/_browse.scss */
+.wrap .browse-sidebar {
+  background-color: #eeeeee;
+  width: 225px;
+  padding: 1em 1.5em 4em 2em;
+  margin: 0;
+  overflow: auto;
+  float: left;
+  display: block;
+}
+/* line 67, ../sass/application/_browse.scss */
+.wrap .browse-sidebar .category-list ul {
+  float: left;
+  font-size: 16px;
+  color: #548699;
+  display: block;
+}
+/* line 82, ../sass/application/_browse.scss */
+.wrap .right-main-body .fundraiser-list h5 {
+  padding: 0.5em 0 1em 0;
+  color: #CC0A32;
+  float: left;
+  margin-left: -10px;
+}
+/* line 90, ../sass/application/_browse.scss */
+.wrap .right-main-body .reddirtcd {
+  float: left;
+  color: #548699;
+  display: block;
+  margin-left: 75px;
+}
+/* line 96, ../sass/application/_browse.scss */
+.wrap .right-main-body .reddirtcd h6 {
   color: #548699;
 }
-/* line 29, ../sass/application/_browse.scss */
-.wrap .browse-body {
-  overflow: auto;
+/* line 100, ../sass/application/_browse.scss */
+.wrap .right-main-body .reddirtcd a {
+  color: #CC0A32;
 }
-/* line 32, ../sass/application/_browse.scss */
-.wrap .browse-body .sidebar {
-  float: left;
-}
-/* line 36, ../sass/application/_browse.scss */
-.wrap .browse-body .sidebar .category-list ul {
-  float: left;
-  margin-left: 15px;
-}
-/* line 45, ../sass/application/_browse.scss */
-.wrap .mainbar {
-  float: right;
-}
-/* line 49, ../sass/application/_browse.scss */
-.wrap .mainbar .right-main-body ul {
-  float: right;
+/* line 104, ../sass/application/_browse.scss */
+.wrap .right-main-body .reddirtcd .divider {
+  margin-bottom: 1em;
+  width: 500px;
 }
