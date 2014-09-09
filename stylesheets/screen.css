@@ -1317,6 +1317,16 @@ a {
   width: 100%;
 }
 
+/* line 22, ../sass/global/_base.scss */
+.user-image {
+  background: url(../images/usergeneric.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
 /* line 1, ../sass/global/_navbar.scss */
 .main-nav-header {
   padding: 10px 0 0 0;
@@ -1649,12 +1659,13 @@ a {
 .signup-page .signup-main-image .sign-up .header-block-background {
   margin-bottom: 0px;
   margin-left: 300px;
+  padding-bottom: 2em;
 }
-/* line 40, ../sass/application/_signup.scss */
+/* line 42, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background ul {
   margin-bottom: 0;
 }
-/* line 44, ../sass/application/_signup.scss */
+/* line 46, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information {
   background-color: #c83c59;
   width: 400px;
@@ -1662,30 +1673,30 @@ a {
   padding: 0.5em 0.5em;
   border-radius: 5px;
 }
-/* line 51, ../sass/application/_signup.scss */
+/* line 53, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information h3 {
   text-align: center;
   color: #FFFFFF;
   padding: 0.25em 0 0.25em 0;
 }
-/* line 56, ../sass/application/_signup.scss */
+/* line 58, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information input {
   border-radius: 5px;
   width: 75%;
   margin-left: 50px;
 }
-/* line 61, ../sass/application/_signup.scss */
+/* line 63, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information a {
   margin: 1em 0 2em 50px;
   text-align: center;
 }
-/* line 67, ../sass/application/_signup.scss */
+/* line 69, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information .f-p {
   text-align: center;
   width: 75%;
   margin-left: 50px;
 }
-/* line 72, ../sass/application/_signup.scss */
+/* line 74, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information .f-p .or {
   background: #c83c59;
   margin-top: -45px;
@@ -1695,11 +1706,11 @@ a {
   text-align: center;
   font-style: normal;
 }
-/* line 84, ../sass/application/_signup.scss */
+/* line 86, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information .button {
   margin: 1em 0 2em 50px;
 }
-/* line 89, ../sass/application/_signup.scss */
+/* line 91, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information .button .icon {
   fill: #fff;
   display: inline;
@@ -1708,7 +1719,7 @@ a {
   margin: 0;
   float: left;
 }
-/* line 97, ../sass/application/_signup.scss */
+/* line 99, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background .information .button .icon .svg {
   width: 2rem;
   height: 2rem;
@@ -1827,6 +1838,172 @@ a {
 }
 
 /* line 1, ../sass/application/_editprofile.scss */
-.up-buttons {
+.edit-profile {
+  padding-left: 100px;
+  color: #548699;
+}
+/* line 7, ../sass/application/_editprofile.scss */
+.edit-profile .up-buttons .one-fourth .column {
+  margin-top: 1.5em;
+}
+/* line 10, ../sass/application/_editprofile.scss */
+.edit-profile .up-buttons .one-fourth .column li {
   display: block;
+  margin-top: 1.5em;
+}
+
+/* line 1, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator {
+  position: relative;
+  margin: 3em auto 5em auto;
+  max-width: 800px;
+  width: 100%;
+  min-height: 400px;
+}
+
+/* line 9, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator .cbp-qtcontent {
+  position: absolute;
+  min-height: 200px;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 2em 0;
+  top: 0;
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+}
+
+/* line 21, ../sass/application/_qtrotator.scss */
+.no-js .cbp-qtrotator .cbp-qtcontent {
+  border-bottom: none;
+}
+
+/* Currently visible */
+/* line 26, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+  position: relative;
+  z-index: 100;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+/* line 34, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+  content: " ";
+  display: table;
+}
+
+/* line 40, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator .cbp-qtcontent:after {
+  clear: both;
+}
+
+/* line 44, ../sass/application/_qtrotator.scss */
+.cbp-qtprogress {
+  position: absolute;
+  background: #47a3da;
+  height: 1px;
+  width: 0%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* line 53, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 58, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator blockquote p {
+  font-size: 2em;
+  color: #888;
+  font-weight: 300;
+  margin: 0.4em 0 1em;
+}
+
+/* line 65, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator blockquote footer {
+  font-size: 1.2em;
+}
+
+/* line 69, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator blockquote footer:before {
+  content: '? ';
+}
+
+/* line 73, ../sass/application/_qtrotator.scss */
+.cbp-qtrotator .cbp-qtcontent img {
+  float: right;
+  margin-left: 3em;
+}
+
+/* Example for media query */
+@media screen and (max-width: 30.6em) {
+  /* line 81, ../sass/application/_qtrotator.scss */
+  .cbp-qtrotator {
+    font-size: 70%;
+  }
+
+  /* line 85, ../sass/application/_qtrotator.scss */
+  .cbp-qtrotator img {
+    width: 80px;
+  }
+}
+/* line 1, ../sass/application/_donation.scss */
+.table {
+  margin-right: -30px;
+  margin-bottom: 2em;
+}
+
+/* line 1, ../sass/application/_browse.scss */
+.main-nav-header {
+  padding-top: 0 !important;
+}
+/* line 5, ../sass/application/_browse.scss */
+.main-nav-header .dropdown {
+  margin-top: 1.5em;
+}
+/* line 8, ../sass/application/_browse.scss */
+.main-nav-header .dropdown .account {
+  color: #548699;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* line 17, ../sass/application/_browse.scss */
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 22, ../sass/application/_browse.scss */
+.wrap .browse-header {
+  font-size: 22px;
+  text-align: left;
+  margin-left: 30px;
+  color: #548699;
+}
+/* line 29, ../sass/application/_browse.scss */
+.wrap .browse-body {
+  overflow: auto;
+}
+/* line 32, ../sass/application/_browse.scss */
+.wrap .browse-body .sidebar {
+  float: left;
+}
+/* line 36, ../sass/application/_browse.scss */
+.wrap .browse-body .sidebar .category-list ul {
+  float: left;
+  margin-left: 15px;
+}
+/* line 45, ../sass/application/_browse.scss */
+.wrap .mainbar {
+  float: right;
+}
+/* line 49, ../sass/application/_browse.scss */
+.wrap .mainbar .right-main-body ul {
+  float: right;
 }

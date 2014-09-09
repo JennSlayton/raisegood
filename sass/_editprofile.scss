@@ -1,17 +1,16 @@
 .edit-profile {
-	padding-left: 100px;
-	color: $base-blue;
+	margin-left: 70px;
 
 	.up-buttons {
 		.one-fourth {
 			.column {
-				margin-top: 1.5em;
-
+				ul {
+					margin-top: 1.5em;
+				}
 				li{
 					display: block;
 					margin-top: 1.5em;
 				}
-				
 			}
 		}
 	}
