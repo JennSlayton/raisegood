@@ -1261,20 +1261,29 @@ input[type="checkbox"] {
 
 /* line 57, ../sass/global/_buttons.scss */
 .button-box {
-  width: 100%;
+  width: 75%;
 }
 
-/* line 62, ../sass/global/_buttons.scss */
+/* line 58, ../sass/global/_buttons.scss */
+.button-fb {
+  border: solid .1rem #3b5998;
+  background: #3b5998;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  text-shadow: -0.1rem -0.1rem rgba(0, 0, 0, 0.1);
+}
+
+/* line 68, ../sass/global/_buttons.scss */
 .button-center {
   text-align: center;
 }
 
-/* line 63, ../sass/global/_buttons.scss */
+/* line 69, ../sass/global/_buttons.scss */
 .button-left {
   text-align: left;
 }
 
-/* line 64, ../sass/global/_buttons.scss */
+/* line 70, ../sass/global/_buttons.scss */
 .button-right {
   text-align: right;
 }
@@ -1313,13 +1322,13 @@ a {
   padding: 10px 0 0 0;
   margin-bottom: 0;
 }
-/* line 5, ../sass/global/_navbar.scss */
+/* line 7, ../sass/global/_navbar.scss */
 .main-nav-header .left-nav {
   float: left;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 10, ../sass/global/_navbar.scss */
+/* line 12, ../sass/global/_navbar.scss */
 .main-nav-header .left-nav li {
   display: inline-block;
   margin-top: 0;
@@ -1327,26 +1336,28 @@ a {
   padding: 0 1em 0 1em;
   vertical-align: middle;
 }
-/* line 18, ../sass/global/_navbar.scss */
+/* line 20, ../sass/global/_navbar.scss */
 .main-nav-header .left-nav a {
   color: #CC0A32;
   text-decoration: none;
+  font-family: "Raleway";
 }
-/* line 25, ../sass/global/_navbar.scss */
+/* line 28, ../sass/global/_navbar.scss */
 .main-nav-header .right-nav {
   float: right;
 }
-/* line 29, ../sass/global/_navbar.scss */
+/* line 32, ../sass/global/_navbar.scss */
 .main-nav-header .right-nav li {
   display: inline;
   vertical-align: middle;
 }
-/* line 33, ../sass/global/_navbar.scss */
+/* line 36, ../sass/global/_navbar.scss */
 .main-nav-header .right-nav li a {
   color: #CC0A32;
   text-decoration: none;
+  font-family: "Raleway";
 }
-/* line 40, ../sass/global/_navbar.scss */
+/* line 44, ../sass/global/_navbar.scss */
 .main-nav-header .right-nav .right-link {
   color: #CC0A32;
 }
@@ -1636,30 +1647,74 @@ a {
 }
 /* line 36, ../sass/application/_signup.scss */
 .signup-page .signup-main-image .sign-up .header-block-background {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  margin-left: 300px;
 }
 /* line 40, ../sass/application/_signup.scss */
-.signup-page .signup-main-image .sign-up .information {
+.signup-page .signup-main-image .sign-up .header-block-background ul {
+  margin-bottom: 0;
+}
+/* line 44, ../sass/application/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background .information {
   background-color: #c83c59;
+  width: 400px;
   color: #FFFFFF;
   padding: 0.5em 0.5em;
   border-radius: 5px;
 }
-/* line 47, ../sass/application/_signup.scss */
-.signup-page .signup-main-image .sign-up .information h3 {
+/* line 51, ../sass/application/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background .information h3 {
   text-align: center;
   color: #FFFFFF;
   padding: 0.25em 0 0.25em 0;
 }
-/* line 52, ../sass/application/_signup.scss */
-.signup-page .signup-main-image .sign-up .information input {
-  border-radius: 5px;
-  width: 100%;
-}
 /* line 56, ../sass/application/_signup.scss */
-.signup-page .signup-main-image .sign-up .information a {
-  margin: 1em 0 1em 0;
+.signup-page .signup-main-image .sign-up .header-block-background .information input {
+  border-radius: 5px;
+  width: 75%;
+  margin-left: 50px;
+}
+/* line 61, ../sass/application/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background .information a {
+  margin: 1em 0 2em 50px;
   text-align: center;
+}
+/* line 67, ../sass/application/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background .information .f-p {
+  text-align: center;
+  width: 75%;
+  margin-left: 50px;
+}
+/* line 72, ../sass/application/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background .information .f-p .or {
+  background: #c83c59;
+  margin-top: -45px;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+  text-align: center;
+  font-style: normal;
+}
+/* line 84, ../sass/application/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background .information .button {
+  margin: 1em 0 2em 50px;
+}
+/* line 89, ../sass/application/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background .information .button .icon {
+  fill: #fff;
+  display: inline;
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  float: left;
+}
+/* line 97, ../sass/application/_signup.scss */
+.signup-page .signup-main-image .sign-up .header-block-background .information .button .icon .svg {
+  width: 2rem;
+  height: 2rem;
+  display: inline;
+  fill: #fff;
+  float: left;
 }
 
 /* line 3, ../sass/application/_showpage.scss */
@@ -1769,4 +1824,9 @@ a {
 .frmanage-page .managing-fundraisers .divider {
   padding-top: 0.5em;
   padding-bottom: 1em;
+}
+
+/* line 1, ../sass/application/_editprofile.scss */
+.up-buttons {
+  display: block;
 }
