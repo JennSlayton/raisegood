@@ -20,27 +20,39 @@
 	.user-image {
 		img{
 			float: right;
-			margin-bottom: 2em;
+			
 		}
 	}
 
-	.managing-fundraisers {
+	.managing-fundraiser {
+			img {
+				padding-top: 1em;
+				margin-left: 25px;
+				text-align: center;
+			}
 
-		h5 {
-			color: $light-blue;
-		}
-		a {
-			color: $base-blue;
-		}
+			h6 {
+				color: $base-blue;
+				padding-top: 1.5em;
+			}
+
+			a {
+				color: $base-red;
+				padding-top: 1em;
+			}
 
 		.divider {
+			margin-bottom: 1em;
+			margin-left: 1em;
+			width: 600px;
 			padding-top: 0.5em;
 			padding-bottom: 1em;
-
 		}
 
+		
 	}
+	
+}
 
 	
 	
-}

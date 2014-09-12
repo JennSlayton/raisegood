@@ -19,11 +19,27 @@ a{ text-decoration: none; }
   width: 100%; 
 }
 
-.user-image {
-	background:url(../images/usergeneric.png) no-repeat top center;
-    background-size:cover;
-    width:100%;
-    min-height:300px;
-    margin-top: 0;
-    margin-bottom: 2em;
+
+table{
+  width: 100%;
+
+  thead{
+    font-weight: 400;
+    color: #fff;
+    background-color: #548699;
+
+
+    th{
+      padding: 0 10px;
+    }
+  }
+
+  tr{
+
+    &:nth-child(even){
+      background-color: #EBEBEB;
+    }
+
+    td{  padding: 15px 10px; }
+  }
 }

@@ -1317,14 +1317,27 @@ a {
   width: 100%;
 }
 
-/* line 22, ../sass/global/_base.scss */
-.user-image {
-  background: url(../images/usergeneric.png) no-repeat top center;
-  background-size: cover;
+/* line 23, ../sass/global/_base.scss */
+table {
   width: 100%;
-  min-height: 300px;
-  margin-top: 0;
-  margin-bottom: 2em;
+}
+/* line 26, ../sass/global/_base.scss */
+table thead {
+  font-weight: 400;
+  color: #fff;
+  background-color: #548699;
+}
+/* line 32, ../sass/global/_base.scss */
+table thead th {
+  padding: 0 10px;
+}
+/* line 39, ../sass/global/_base.scss */
+table tr:nth-child(even) {
+  background-color: #EBEBEB;
+}
+/* line 43, ../sass/global/_base.scss */
+table tr td {
+  padding: 15px 10px;
 }
 
 /* line 1, ../sass/global/_navbar.scss */
@@ -1742,66 +1755,173 @@ a {
   font-size: 13px;
   font-weight: 600;
 }
-/* line 21, ../sass/application/_showpage.scss */
-.show-page .showpage-image img {
-  float: right;
+/* line 20, ../sass/application/_showpage.scss */
+.show-page .showpage-image {
+  background: url(../images/fundraisercover.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 0;
+  margin-bottom: 2em;
 }
-/* line 26, ../sass/application/_showpage.scss */
+/* line 28, ../sass/application/_showpage.scss */
+.show-page .showpage-image .user-profile {
+  text-align: center;
+}
+/* line 32, ../sass/application/_showpage.scss */
+.show-page .showpage-image .user-profile .user-profile-block {
+  left: 30px;
+  position: absolute;
+  top: 60px;
+}
+/* line 37, ../sass/application/_showpage.scss */
+.show-page .showpage-image .user-profile .user-profile-block h5, .show-page .showpage-image .user-profile .user-profile-block h6 {
+  color: #fff;
+  font-weight: 700;
+}
+/* line 43, ../sass/application/_showpage.scss */
+.show-page .showpage-image .user-profile .user-profile-block .avatar {
+  border-radius: 100px;
+  height: 150px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+/* line 56, ../sass/application/_showpage.scss */
 .show-page .about-fundraiser {
   float: left;
+  margin-bottom: 1.5em;
 }
-/* line 29, ../sass/application/_showpage.scss */
+/* line 60, ../sass/application/_showpage.scss */
 .show-page .about-fundraiser h3 {
   color: #548699;
 }
-/* line 35, ../sass/application/_showpage.scss */
+/* line 66, ../sass/application/_showpage.scss */
 .show-page .stats-fundraiser {
   float: right;
+  text-align: center;
 }
-/* line 37, ../sass/application/_showpage.scss */
+/* line 70, ../sass/application/_showpage.scss */
 .show-page .stats-fundraiser h3, .show-page .stats-fundraiser h4 {
   color: #548699;
 }
-/* line 43, ../sass/application/_showpage.scss */
-.show-page .supporters h3 {
+/* line 73, ../sass/application/_showpage.scss */
+.show-page .stats-fundraiser .button {
+  width: 300px;
+}
+/* line 76, ../sass/application/_showpage.scss */
+.show-page .stats-fundraiser .button a {
+  display: block;
+}
+/* line 80, ../sass/application/_showpage.scss */
+.show-page .stats-fundraiser .button .icon {
+  fill: #fff;
+  display: inline;
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  float: left;
+}
+/* line 88, ../sass/application/_showpage.scss */
+.show-page .stats-fundraiser .button .icon .svg {
+  width: 2rem;
+  height: 2rem;
+  display: inline;
+  fill: #fff;
+  float: left;
+}
+/* line 100, ../sass/application/_showpage.scss */
+.show-page .supporter-header {
+  background-color: rgba(204, 10, 50, 0.7);
+  color: #fff;
+  font-size: 2em;
+  padding: 0.5em 0;
+  text-align: center;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
+/* line 112, ../sass/application/_showpage.scss */
+.show-page .supporters h4 {
   color: #548699;
 }
 
-/* line 3, ../sass/application/_following.scss */
-.following-page .main-nav-header {
+/* line 1, ../sass/application/_following.scss */
+.main-nav-header {
   padding-top: 0 !important;
 }
-/* line 7, ../sass/application/_following.scss */
-.following-page .dropdown {
+/* line 5, ../sass/application/_following.scss */
+.main-nav-header .dropdown {
   margin-top: 1.5em;
 }
-/* line 10, ../sass/application/_following.scss */
-.following-page .dropdown .account {
+/* line 8, ../sass/application/_following.scss */
+.main-nav-header .dropdown .account {
   color: #548699;
   font-size: 13px;
   font-weight: 600;
 }
-/* line 21, ../sass/application/_following.scss */
-.following-page .user-image img {
+
+/* line 17, ../sass/application/_following.scss */
+.user-image img {
   float: right;
-  margin-bottom: 2em;
+}
+
+/* line 23, ../sass/application/_following.scss */
+.body-container {
+  position: relative;
+}
+
+/* line 25, ../sass/application/_following.scss */
+.following-list {
+  float: left;
 }
 /* line 29, ../sass/application/_following.scss */
-.following-page .following-fundraisers h5 {
-  color: #0A96CC;
+.following-list .fundraiser-block img {
+  padding-top: 1em;
+  text-align: center;
 }
-/* line 32, ../sass/application/_following.scss */
-.following-page .following-fundraisers a {
+/* line 34, ../sass/application/_following.scss */
+.following-list .fundraiser-block h6 {
+  color: #548699;
+  padding-top: 1.5em;
+}
+/* line 39, ../sass/application/_following.scss */
+.following-list .fundraiser-block a {
+  color: #CC0A32;
+  padding-top: 1em;
+}
+/* line 44, ../sass/application/_following.scss */
+.following-list .fundraiser-block .divider {
+  margin-bottom: 1em;
+  width: 600px;
+  float: right;
+}
+
+/* line 54, ../sass/application/_following.scss */
+.browse-more-sidebar {
+  background-color: #eeeeee;
+  padding: 3em 3em 4em 2em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: -20px;
+  margin-left: 0;
+  overflow: auto;
+  float: right;
+  display: block;
+}
+/* line 66, ../sass/application/_following.scss */
+.browse-more-sidebar h6 {
   color: #548699;
 }
-/* line 36, ../sass/application/_following.scss */
-.following-page .following-fundraisers .divider {
-  padding-top: 0.5em;
-  padding-bottom: 1em;
+/* line 72, ../sass/application/_following.scss */
+.browse-more-sidebar .category-list ul {
+  float: right;
+  font-size: 16px;
+  color: #548699;
+  display: block;
 }
-/* line 43, ../sass/application/_following.scss */
-.following-page .following-fundraisers .second-fundraiser img {
-  padding-top: 1em;
+/* line 78, ../sass/application/_following.scss */
+.browse-more-sidebar .category-list ul a {
+  color: #CC0A32;
 }
 
 /* line 3, ../sass/application/_frmanage.scss */
@@ -1821,35 +1941,76 @@ a {
 /* line 21, ../sass/application/_frmanage.scss */
 .frmanage-page .user-image img {
   float: right;
-  margin-bottom: 2em;
 }
-/* line 29, ../sass/application/_frmanage.scss */
-.frmanage-page .managing-fundraisers h5 {
-  color: #0A96CC;
+/* line 28, ../sass/application/_frmanage.scss */
+.frmanage-page .managing-fundraiser img {
+  padding-top: 1em;
+  margin-left: 25px;
+  text-align: center;
 }
-/* line 32, ../sass/application/_frmanage.scss */
-.frmanage-page .managing-fundraisers a {
+/* line 34, ../sass/application/_frmanage.scss */
+.frmanage-page .managing-fundraiser h6 {
   color: #548699;
+  padding-top: 1.5em;
 }
-/* line 36, ../sass/application/_frmanage.scss */
-.frmanage-page .managing-fundraisers .divider {
+/* line 39, ../sass/application/_frmanage.scss */
+.frmanage-page .managing-fundraiser a {
+  color: #CC0A32;
+  padding-top: 1em;
+}
+/* line 44, ../sass/application/_frmanage.scss */
+.frmanage-page .managing-fundraiser .divider {
+  margin-bottom: 1em;
+  margin-left: 1em;
+  width: 600px;
   padding-top: 0.5em;
   padding-bottom: 1em;
 }
 
 /* line 1, ../sass/application/_editprofile.scss */
+.user-image {
+  background: url(../images/usergeneric.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 0;
+}
+/* line 9, ../sass/application/_editprofile.scss */
+.user-image .user-profile {
+  text-align: center;
+}
+/* line 13, ../sass/application/_editprofile.scss */
+.user-image .user-profile .user-profile-block {
+  left: 30px;
+  position: absolute;
+  top: 60px;
+}
+/* line 18, ../sass/application/_editprofile.scss */
+.user-image .user-profile .user-profile-block h5, .user-image .user-profile .user-profile-block h6 {
+  color: #fff;
+  font-weight: 700;
+}
+/* line 24, ../sass/application/_editprofile.scss */
+.user-image .user-profile .user-profile-block .avatar {
+  border-radius: 100px;
+  height: 150px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+/* line 37, ../sass/application/_editprofile.scss */
 .edit-profile {
   padding-left: 100px;
   color: #548699;
 }
-/* line 7, ../sass/application/_editprofile.scss */
-.edit-profile .up-buttons .one-fourth .column {
-  margin-top: 1.5em;
-}
-/* line 10, ../sass/application/_editprofile.scss */
-.edit-profile .up-buttons .one-fourth .column li {
+/* line 43, ../sass/application/_editprofile.scss */
+.edit-profile .up-buttons li {
   display: block;
-  margin-top: 1.5em;
+  margin-top: 1em;
+}
+/* line 47, ../sass/application/_editprofile.scss */
+.edit-profile .up-buttons a {
+  margin-top: 1em;
 }
 
 /* line 1, ../sass/application/_qtrotator.scss */
@@ -1954,9 +2115,42 @@ a {
   }
 }
 /* line 1, ../sass/application/_donation.scss */
-.table {
-  margin-right: -30px;
-  margin-bottom: 2em;
+.user-image {
+  background: url(../images/usergeneric.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 0;
+}
+/* line 9, ../sass/application/_donation.scss */
+.user-image .user-profile {
+  text-align: center;
+}
+/* line 13, ../sass/application/_donation.scss */
+.user-image .user-profile .user-profile-block {
+  left: 30px;
+  position: absolute;
+  top: 60px;
+}
+/* line 18, ../sass/application/_donation.scss */
+.user-image .user-profile .user-profile-block h5, .user-image .user-profile .user-profile-block h6 {
+  color: #fff;
+  font-weight: 700;
+}
+/* line 24, ../sass/application/_donation.scss */
+.user-image .user-profile .user-profile-block .avatar {
+  border-radius: 100px;
+  height: 150px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+/* line 33, ../sass/application/_donation.scss */
+.user-image table {
+  margin-top: 2em;
+}
+/* line 35, ../sass/application/_donation.scss */
+.user-image table .divider {
+  margin-top: 1em;
 }
 
 /* line 1, ../sass/application/_browse.scss */
@@ -2036,13 +2230,15 @@ a {
 /* line 96, ../sass/application/_browse.scss */
 .wrap .right-main-body .reddirtcd h6 {
   color: #548699;
+  padding-top: 1em;
 }
-/* line 100, ../sass/application/_browse.scss */
+/* line 101, ../sass/application/_browse.scss */
 .wrap .right-main-body .reddirtcd a {
   color: #CC0A32;
+  padding-top: 1em;
 }
-/* line 104, ../sass/application/_browse.scss */
+/* line 106, ../sass/application/_browse.scss */
 .wrap .right-main-body .reddirtcd .divider {
   margin-bottom: 1em;
-  width: 500px;
+  width: 600px;
 }
