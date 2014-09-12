@@ -11,8 +11,6 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
     <script src="js/qtrotator.js"></script>
 
-    
-
   </head>
 
   <body class="raise-good-homepage">
@@ -90,9 +88,8 @@
       </div>    
     </div>
 
-    <!--I AM NOT SURE HOW TO DO COLUMNS FOR THIS BECAUSE OF THE QUOTE BOX-->
     <div class="quote-red-bg">
-      <div id="cbp-qtrotator" class="cbp-qtrotator">
+      <div id="cbp-qtrotator" class="cbp-qtrotator container">
         <div class="cbp-qtcontent">
           <img src="images/benpic.png" alt="img01" />
           <blockquote>
@@ -163,6 +160,13 @@
           </ul>
         </div>
       </div> 
-    </div>  
+    </div> 
+
+    <script>
+      $( function() {
+        $( '#cbp-qtrotator' ).cbpQTRotator();
+      } );
+    </script>
+
   </body>
 </html>

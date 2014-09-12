@@ -9,17 +9,17 @@
  * http://www.codrops.com
  */
 ;( function( $, window, undefined ) {
- 
+
     'use strict';
- 
+
     // global
     var Modernizr = window.Modernizr;
- 
+
     $.CBPQTRotator = function( options, element ) {
         this.$el = $( element );
         this._init( options );
     };
- 
+
     // the options
     $.CBPQTRotator.defaults = {
         // default transition speed (ms)
@@ -29,10 +29,10 @@
         // rotator interval (ms)
         interval : 8000
     };
- 
+
     $.CBPQTRotator.prototype = {
         _init : function( options ) {
- 
+
             // options
             this.options = $.extend( true, {}, $.CBPQTRotator.defaults, options );
             // cache some elements and initialize some variables
@@ -45,15 +45,15 @@
             }
             // start rotating the items
             this._startRotator();
- 
+
         },
         _config : function() {
- 
+
             // the content items
             this.$items = this.$el.children( 'div.cbp-qtcontent' );
             // total items
             this.itemsCount = this.$items.length;
-            // current item´s index
+            // current item's index
             this.current = 0;
             // support for CSS Transitions
             this.support = Modernizr.csstransitions;
@@ -61,7 +61,7 @@
             if( this.support ) {
                 this.$progress = $( '<span class="cbp-qtprogress"></span>' ).appendTo( this.$el );
             }
- 
+
         },
         _setTransition : function() {
             setTimeout( $.proxy( function() {
@@ -69,11 +69,11 @@
             }, this ), 25 );
         },
         _startRotator: function() {
- 
+
             if( this.support ) {
                 this._startProgress();
             }
- 
+
             setTimeout( $.proxy( function() {
                 if( this.support ) {
                     this._resetProgress();
@@ -81,24 +81,24 @@
                 this._next();
                 this._startRotator();
             }, this ), this.options.interval );
- 
+
         },
         _next : function() {
- 
+
             // hide previous item
             this.$items.eq( this.current ).removeClass( 'cbp-qtcurrent' );
             // update current value
             this.current = this.current < this.itemsCount - 1 ? this.current + 1 : 0;
             // show next item
             this.$items.eq( this.current ).addClass('cbp-qtcurrent');
- 
+
         },
         _startProgress : function() {
-             
+            
             setTimeout( $.proxy( function() {
                 this.$progress.css( { transition : 'width ' + this.options.interval + 'ms linear', width : '100%' } );
             }, this ), 25 );
- 
+
         },
         _resetProgress : function() {
             this.$progress.css( { transition : 'none', width : '0%' } );
@@ -116,13 +116,13 @@
             } );
         }
     };
- 
+
     var logError = function( message ) {
         if ( window.console ) {
             window.console.error( message );
         }
     };
- 
+
     $.fn.cbpQTRotator = function( options ) {
         if ( typeof options === 'string' ) {
             var args = Array.prototype.slice.call( arguments, 1 );
@@ -153,5 +153,5 @@
         }
         return this;
     };
- 
+
 } )( jQuery, window );
