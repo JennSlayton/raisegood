@@ -1,0 +1,113 @@
+//RAISE GOOD - SIGNUP STYLES
+body {
+  font-family: $main-typeface;
+}
+
+a {text-decoration: none;}
+
+.signup-page {
+    
+  .main-nav-header {
+    .right-nav {
+      margin-top: 2em;
+      margin-bottom: 0;
+    }
+      a {
+        margin-top: 2em
+      }
+    
+
+  }  
+
+
+
+  .signup-main-image {
+    background:url(../images/raisegoodcover.png) no-repeat top center;
+    background-size:cover;
+    width:100%;
+    min-height:500px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .sign-up {
+      position: center;
+      padding-top: 5em;
+
+      .header-block-background {
+        margin-bottom: 0px;
+        margin-left: 300px;
+        padding-bottom: 2em;
+
+      
+        ul {
+          margin-bottom: 0;
+        }
+    
+          .information {
+            background-color:rgba(200, 60, 89, 1);
+            width: 400px;
+            color: #FFFFFF;
+            padding: 0.5em 0.5em;
+            border-radius: 5px;
+        
+            h3{
+              text-align: center;
+              color: $base-white;
+              padding: 0.25em 0 0.25em 0;
+            }
+            input {
+              border-radius: 5px;
+              width: 75%;
+              margin-left: 50px;
+            }
+            a {
+              margin: 1em 0 2em 50px;
+              text-align: center;
+
+            }
+
+            .f-p {
+              text-align: center;
+              width: 75%;
+              margin-left: 50px;
+            
+              .or {
+                background: rgba(200, 60, 89, 1);
+                margin-top: -45px;
+                margin-left: -25px;
+                position: absolute;
+                width: 50px;
+                text-align: center;
+                font-style: normal;
+                
+              }
+            }
+
+            .button {
+            
+                margin: 1em 0 2em 50px;
+              
+            
+                .icon {
+                  fill: #fff;
+                  display: inline;
+                  width: 2rem;
+                  height: 2rem;
+                  margin: 0;
+                  float: left;
+
+                  .svg {
+                    width: 2rem;
+                    height: 2rem;
+                    display: inline;
+                    fill: #fff;
+                    float: left;
+                  }
+                }
+              
+            }
+          }  
+      }
+    }       
+  }
+}    

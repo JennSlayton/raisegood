@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browse | Raise Good</title>
+
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,600' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>;
+    <script type="text/javascript" >
+    $(document).ready(function()
+    {
+
+    $(".account").click(function()
+    {
+    var X=$(this).attr('id');
+    if(X==1)
+    {
+    $(".submenu").hide();
+    $(this).attr('id', '0'); 
+    }
+    else
+    {
+    $(".submenu").show();
+    $(this).attr('id', '1');
+    }
+
+    });
+
+    //Mouse click on sub menu
+    $(".submenu").mouseup(function()
+    {
+    return false
+    });
+
+    //Mouse click on my account link
+    $(".account").mouseup(function()
+    {
+    return false
+    });
+
+
+    //Document Click
+    $(document).mouseup(function()
+    {
+    $(".submenu").hide();
+    $(".account").attr('id', '');
+    });
+    });
+    </script>
+    
+  </head>
+
+  <body >
+    <header class="main-nav-header">
+      <nav class="container">
+        <ul class="left-nav">
+          <li>
+            <a href="index.html" class="logo"> <img src="images/logo.png"> </a></li>
+          <li><a href="browse.html" class="nav-link">Browse</a></li>
+          <li><a href="createfundraiserform.html" class="nav-link">Create</a></li>
+          <li><a href="#" class="nav-link">Donate</a></li>
+        </ul>
+
+        <ul class="right-nav">
+          <div class="dropdown">
+            <a class="account" >Welcome, user!</a>
+            <div class="submenu">
+              <ul class="root">
+                <li ><a href="following.html" >Following</a></li>
+                <li ><a href="frmanage.html" >Fundraisers</a></li>
+                <li ><a href="donation.html">Donations</a></li>
+                <li><a href="editprofile.html">Edit Profile</a></li>
+                <li><a href="index.html">Log Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="wrap container">
+         <h4>Browse Fundraisers</h4> 
+        <div class="browse-header one-third column"> 
+            <div class="browse-sidebar">
+            <h5>Categories</h5>
+                <div class="category-list">
+                    <ul>
+                        <li>Animals</li>
+                        <li>Business</li>
+                        <li>Charity</li>
+                        <li>Community</li>
+                        <li>Creative</li>
+                        <li>Emergency</li>
+                        <li>Event</li>
+                        <li>Faith</li>
+                        <li>Family</li>
+                        <li>Medical</li>
+                        <li>Memorial</li>
+                        <li>Sports</li>
+                        <li>Travel</li>
+                        <li>Wishes</li>
+                        <li>Volunteer</li>
+                        <li>Other</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+<!--WHAT THE HECK AM I DOING WRONG???-->
+        <div class="right-main-body two-thirds column">
+            <div class="fundraiser-list">
+                <div class="row">
+                    <h5>What's Trending</h5>
+                </div>
+                <div class="reddirtcd">
+                   <div class="row fundraiser-block">
+                        <div class="two columns">
+                            <img src="images/reddirtcd.png">
+                        </div>
+                        <div class="tweleve offset-by-one columns">
+                            <ul>
+                                <li><h6>Creative | Ends October 15, 2014</h6></li>
+                                <li><a href="showpage.html">Eli's Texas Red Dirt CD</a></li>
+                            </ul>
+                        </div>
+                   </div> 
+                   <div class="divider"></div>  
+                    <div class="row fundraiser-block">
+                        <div class="two columns">
+                            <img src="images/reddirtcd.png">
+                        </div>
+                        <div class="tweleve offset-by-one columns">
+                            <ul>
+                                <li><h6>Creative | Ends October 15, 2014</h6></li>
+                                <li><a href="showpage.html">Eli's Texas Red Dirt CD</a></li>
+                            </ul>
+                        </div>
+                   </div> 
+                   <div class="divider"></div> 
+                    <div class="row fundraiser-block">
+                        <div class="two columns">
+                            <img src="images/reddirtcd.png">
+                        </div>
+                        <div class="tweleve offset-by-one columns">
+                            <ul>
+                                <li><h6>Creative | Ends October 15, 2014</h6></li>
+                                <li><a href="showpage.html">Eli's Texas Red Dirt CD</a></li>
+                            </ul>
+                        </div>
+                   </div> 
+                   <div class="divider"></div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="nav-footer">
+      <div class="divider"></div>
+        <div class="row">
+          <ul class="footer-nav">
+            <li><a href="#" class="nav-link">Browse</a></li>
+            <li><a href="createfundraiserform.html" class="nav-link">Create</a></li>
+            <li><a href="#" class="nav-link">Donate</a>
+            </li>
+          </ul>
+        </div>
+    </div> 
+
+
+
+
+
+</body>
+
+
+

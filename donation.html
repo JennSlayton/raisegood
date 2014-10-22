@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Donations | Raise Good</title>
+
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,600' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>;
+    <script type="text/javascript" >
+    $(document).ready(function()
+    {
+
+    $(".account").click(function()
+    {
+    var X=$(this).attr('id');
+    if(X==1)
+    {
+    $(".submenu").hide();
+    $(this).attr('id', '0'); 
+    }
+    else
+    {
+    $(".submenu").show();
+    $(this).attr('id', '1');
+    }
+
+    });
+
+    //Mouse click on sub menu
+    $(".submenu").mouseup(function()
+    {
+    return false
+    });
+
+    //Mouse click on my account link
+    $(".account").mouseup(function()
+    {
+    return false
+    });
+
+
+    //Document Click
+    $(document).mouseup(function()
+    {
+    $(".submenu").hide();
+    $(".account").attr('id', '');
+    });
+    });
+    </script>
+    
+  </head>
+
+  <body class="following-page">
+    <header class="main-nav-header">
+      <nav class="container">
+        <ul class="left-nav">
+          <li>
+            <a href="index.html" class="logo"> <img src="images/logo.png"> </a></li>
+          <li><a href="browse.html" class="nav-link">Browse</a></li>
+          <li><a href="createfundraiserform.html" class="nav-link">Create</a></li>
+          <li><a href="#" class="nav-link">Donate</a></li>
+        </ul>
+
+        <ul class="right-nav">
+          <div class="dropdown">
+            <a class="account" >Welcome, user!</a>
+            <div class="submenu">
+              <ul class="root">
+                <li ><a href="following.html" >Following</a></li>
+                <li ><a href="frmanage.html" >Fundraisers</a></li>
+                <li ><a href="donation.html">Donations</a></li>
+                <li><a href="editprofile.html">Edit Profile</a></li>
+                <li><a href="index.html">Log Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </header> 
+    <div class="user-image">
+        <div class="user-profile container">
+            <div class="row">
+                <div class="user-profile-block">
+                    <img src="images/userpic.png" class="avatar">
+                    <h5>John Smith</h5>
+                    <h6>Page Name here</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--TABLE FOR DONATIONS-->
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th width="100">Date</th>
+            <th width="150">Fundraiser</th>
+            <th width="100">Category</th>
+            <th width="100">Amount</th>
+            <th width="100">Method of Payment</th>
+            <th width="100">Status</th> 
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>08/12/14</td>
+            <td>Save Rachel's Tatas</td>
+            <td>Medical</td>
+            <td>$100</td>
+            <td>cc</td>
+            <td>Paid</td>
+          </tr>
+        
+          <tr>
+            <td>08/12/14</td>
+            <td>Save Rachel's Tatas</td>
+            <td>Medical</td>
+            <td>$100</td>
+            <td>cc</td>
+            <td>Paid</td>
+          </tr>
+          <tr>
+            <td>08/12/14</td>
+            <td>Save Rachel's Tatas</td>
+            <td>Medical</td>
+            <td>$100</td>
+            <td>cc</td>
+            <td>Paid</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="nav-footer">
+      <div class="divider"></div>
+        <div class="row">
+          <ul class="footer-nav">
+            <li><a href="browse.html" class="nav-link">Browse</a></li>
+            <li><a href="createfundraiserform.html" class="nav-link">Create</a></li>
+            <li><a href="#" class="nav-link">Donate</a>
+            </li>
+          </ul>
+        </div>
+    </div> 
+
+  </body>

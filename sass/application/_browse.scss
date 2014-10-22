@@ -1,0 +1,116 @@
+.main-nav-header {
+	padding-top: 0 !important;
+
+
+	.dropdown {
+		margin-top: 1.5em;
+			
+		.account{
+			color: $base-blue;
+			font-size: 13px;
+			font-weight: 600;
+		}
+	}
+}
+
+
+.wrap { 
+	width: 100%;
+
+	h4 {
+		background-color: rgba(204,10,50, 0.7);
+		color: #fff;
+		padding: 1em 0;
+		text-align: center;
+		margin-bottom: 0;
+		}
+	
+ 
+
+	.browse-header {   
+		text-align:left; 
+		color: $base-blue;
+		margin-left: 0;
+		
+		
+		.container {
+			.one-third {
+				.column {
+					width: 150px !important;
+					margin-left: 0;
+
+				}
+			}
+		}
+
+			h5 {
+			color: $base-red;
+			padding-bottom: 1em;
+			}
+	}
+
+	
+
+
+	.browse-sidebar { 
+		background-color: #eeeeee;
+		width: 225px;
+		padding: 1em 1.5em 4em 2em;
+		margin: 0;
+		overflow:auto;
+		float: left;
+		display: block;
+
+
+			
+		.category-list {
+			ul {
+				float: left;
+				font-size: 16px;
+				color: $base-blue;
+				display: block;
+			}
+		}
+			
+
+	}
+
+	.right-main-body {
+		//margin-left: -1px;
+
+		.fundraiser-list {
+			h5 {
+				padding: 0.5em 0 1em 0;
+				color: $base-red;
+				float: left;
+				margin-left: -10px;
+			}
+		}
+
+		.reddirtcd {
+			float: left;
+			color: $base-blue;
+			display: block;
+			margin-left: 75px;
+			
+			h6 {
+				color: $base-blue;
+				padding-top: 1em;
+			}
+
+			a {
+				color: $base-red;
+				padding-top: 1em;
+			}
+
+			.divider {
+				margin-bottom: 1em;
+				width: 600px;
+			}
+		}
+	}
+
+
+	
+	
+}

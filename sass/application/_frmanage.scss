@@ -1,0 +1,58 @@
+.frmanage-page {
+
+	.main-nav-header {
+		padding-top: 0 !important;
+	}
+
+		.dropdown {
+			margin-top: 1.5em;
+			
+			.account{
+				color: $base-blue;
+				font-size: 13px;
+				font-weight: 600;
+
+			}
+
+
+		}
+
+	.user-image {
+		img{
+			float: right;
+			
+		}
+	}
+
+	.managing-fundraiser {
+			img {
+				padding-top: 1em;
+				margin-left: 25px;
+				text-align: center;
+			}
+
+			h6 {
+				color: $base-blue;
+				padding-top: 1.5em;
+			}
+
+			a {
+				color: $base-red;
+				padding-top: 1em;
+			}
+
+		.divider {
+			margin-bottom: 1em;
+			margin-left: 1em;
+			width: 600px;
+			padding-top: 0.5em;
+			padding-bottom: 1em;
+		}
+
+		
+	}
+	
+}
+
+	
+	

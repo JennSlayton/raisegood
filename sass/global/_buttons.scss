@@ -1,0 +1,72 @@
+ //GLOBAL BUTTON STYLES
+
+	.button{
+		border: none;
+		border-radius: 15px;
+		color: $base-white !important;
+		display: inline-block;
+		font-family: $main-typeface;
+		font-size: 15px;
+		padding: 10px 20px;
+
+		&:hover{
+			border: none;
+			cursor: pointer;
+			opacity: 0.8;
+		}
+
+		&:focus{
+			border:none;
+			outline:none;
+			text-decoration:none;
+		}
+	}
+
+
+//BASE BUTTON
+
+	$buttons: (
+						 blue $base-blue $base-white,
+						 red $base-red $base-white,
+						 fb $secondary-blue $base-white, 
+						);
+
+	@each $button in $buttons{
+		$name: nth($button, 1);
+		$background: nth($button, 2); 
+		$color: nth($button, 3); 
+
+		.button-#{$name}{
+			background-color: $background;
+			color: $color;
+
+			&:hover{
+				background-color: shade($background, 10%);
+				color: $color;
+			}
+		}
+	}
+
+
+	//BUTTON STYLES
+
+	.button-small{ padding:8px 10px !important; margin:1em;  }
+	.button-nav{ padding:12px 18px !important; margin:1em;  }
+	.button-large{ font-size: 18px; margin:1em; padding:15px 40px !important; }
+	.button-long{ width:100%; }
+	.button-box{width: 75%}
+	.button-fb {
+		border: solid .1rem #3b5998;
+		background: #3b5998;
+		-webkit-font-smoothing: antialiased;
+		color: #fff;
+		text-shadow: -0.1rem -0.1rem rgba(0,0,0,0.1);}
+
+
+	//BUTTON POSITION
+
+	.button-center{ text-align:center; }
+	.button-left{ text-align:left; }
+	.button-right{ text-align:right; }  
+
+	

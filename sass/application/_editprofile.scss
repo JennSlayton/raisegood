@@ -1,0 +1,53 @@
+.user-image {
+	background:url(../images/usergeneric.png) no-repeat top center;
+    background-size:cover;
+    width:100%;
+    min-height:300px;
+    margin-top: 0;
+    
+
+    .user-profile{
+    	text-align: center;
+
+
+    	.user-profile-block{
+    		left: 30px;
+    		position: absolute;
+    		top: 60px;
+
+    		h5 , h6 {
+	    		color: #fff;
+	    		font-weight: 700;
+		    }
+		   
+
+	    	.avatar{
+	    		border-radius: 100px;
+	    		height: 150px;
+	    		margin-bottom: 15px;
+	    		width: 150px;
+
+	    	}
+    	}
+    }
+}
+
+
+
+.edit-profile {
+	padding-left: 100px;
+	color: $base-blue;
+
+	.up-buttons {
+		
+		li{
+			display: block;
+			margin-top: 1em;
+		}
+			a {
+				margin-top: 1em;
+			}
+				
+			
+	}
+}
